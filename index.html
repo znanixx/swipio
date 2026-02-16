@@ -22,6 +22,7 @@
       align-items: center;
       justify-content: center;
       padding: 2rem 1rem;
+      position: relative;
     }
     .container {
       max-width: 420px;
@@ -47,6 +48,7 @@
       list-style: none;
       margin: 0;
       padding: 0;
+      padding-top: 1.75rem;
       display: flex;
       flex-direction: column;
       gap: 0.75rem;
@@ -72,18 +74,102 @@
       outline: 2px solid #0f172a;
       outline-offset: 2px;
     }
+    .lang-selector {
+      position: fixed;
+      top: 1.25rem;
+      right: 1.25rem;
+      z-index: 10;
+      padding: 0.5rem 2rem 0.5rem 0.75rem;
+      font-family: inherit;
+      font-size: 0.875rem;
+      font-weight: 500;
+      color: #334155;
+      background: #fff;
+      border: 1px solid #e2e8f0;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(15, 23, 42, 0.06);
+      cursor: pointer;
+      appearance: none;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12' fill='none' stroke='%2364748b' stroke-width='2' stroke-linecap='round'%3E%3Cpath d='M3 4.5L6 7.5L9 4.5'/%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: right 0.6rem center;
+      transition: background-color 0.2s, border-color 0.2s;
+    }
+    .lang-selector:hover {
+      background-color: #f1f5f9;
+      border-color: #cbd5e1;
+    }
+    .lang-selector:focus-visible {
+      outline: 2px solid #0f172a;
+      outline-offset: 2px;
+    }
   </style>
 </head>
 
 <body>
+  <select class="lang-selector" aria-label="Language">
+    <option value="cs">Čeština</option>
+    <option value="da">Dansk</option>
+    <option value="de">Deutsch</option>
+    <option value="en">English</option>
+    <option value="es">Español</option>
+    <option value="fi">Suomi</option>
+    <option value="fr">Français</option>
+    <option value="ga">Gaeilge</option>
+    <option value="hi">हिन्दी</option>
+    <option value="it">Italiano</option>
+    <option value="ja">日本語</option>
+    <option value="ko">한국어</option>
+    <option value="nl">Nederlands</option>
+    <option value="no">Norsk</option>
+    <option value="pl">Polski</option>
+    <option value="pt">Português</option>
+    <option value="ro">Română</option>
+    <option value="sv">Svenska</option>
+    <option value="tr">Türkçe</option>
+    <option value="uk">Українська</option>
+    <option value="zh">中文</option>
+  </select>
   <main class="container">
     <h1>Swipio: Language Learning</h1>
-    <p class="subtitle">Legal documents and policies for the Swipio app.</p>
     <ul class="links">
-      <li><a href="swipio/en/tos.html">Terms &amp; Conditions</a></li>
-      <li><a href="swipio/en/privacy.html">Privacy Policy</a></li>
+      <li><a href="swipio/en/privacy.html" data-doc="privacy">Privacy Policy</a></li>
+      <li><a href="swipio/en/tos.html" data-doc="tos">Terms &amp; Conditions</a></li>
     </ul>
   </main>
+  <script>
+    (function () {
+      var STORAGE_KEY = 'swipio-policies-lang';
+      var selector = document.querySelector('.lang-selector');
+      var links = document.querySelectorAll('.links a[data-doc]');
+      var docs = { tos: 'tos.html', privacy: 'privacy.html' };
+
+      function getLang() {
+        return localStorage.getItem(STORAGE_KEY) || 'en';
+      }
+      function setLang(lang) {
+        localStorage.setItem(STORAGE_KEY, lang);
+      }
+      function updateLinks(lang) {
+        links.forEach(function (a) {
+          var doc = a.getAttribute('data-doc');
+          if (doc && docs[doc]) a.href = 'swipio/' + lang + '/' + docs[doc];
+        });
+      }
+
+      selector.addEventListener('change', function () {
+        var lang = this.value;
+        setLang(lang);
+        updateLinks(lang);
+      });
+
+      var current = getLang();
+      if (selector.querySelector('option[value="' + current + '"]')) {
+        selector.value = current;
+      }
+      updateLinks(current);
+    })();
+  </script>
 </body>
 
 </html>
