@@ -37,6 +37,8 @@
   };
 
   const DOCS = { tos: 'tos.html', privacy: 'privacy.html' };
+  /** Base path for language landing pages (e.g. "pages/" so en is at /, others at /pages/de/, etc.). */
+  const PAGES_BASE = 'pages/';
 
   // ─── Nav scroll state ───────────────────────────────────────────────────────
   function initNavScroll() {
@@ -90,6 +92,14 @@
     const appStoreImgs = document.querySelectorAll('.store-btn img[src*="app-store"]');
     const googlePlayImgs = document.querySelectorAll('.store-btn img[src*="google-play"]');
 
+    const pathname = window.location.pathname || '';
+    const base = PAGES_BASE.replace(/\/$/, '');
+    const pagesRe = new RegExp('^/' + base.replace(/\//g, '\\/') + '/([a-z]{2})(?:/|$)', 'i');
+    const pagesMatch = pathname.match(pagesRe);
+    const inPagesFolder = pagesMatch && SUPPORTED_LANGS.includes(pagesMatch[1]);
+    const pathPrefix = inPagesFolder ? '../../' : '';
+    const langFromPath = inPagesFolder ? pagesMatch[1] : null;
+
     function detectBrowserLang() {
       const list = navigator.languages?.length ? navigator.languages : [navigator.language || ''];
       for (const locale of list) {
@@ -100,6 +110,7 @@
     }
 
     function getLang() {
+      if (langFromPath) return langFromPath;
       const stored = localStorage.getItem(STORAGE_KEY_LANG);
       if (stored && SUPPORTED_LANGS.includes(stored)) return stored;
       return detectBrowserLang();
@@ -117,26 +128,33 @@
       const langCode = effectiveLang(lang);
       docLinks.forEach((a) => {
         const doc = a.getAttribute('data-doc');
-        if (doc && DOCS[doc]) a.href = `docs/${langCode}/${DOCS[doc]}`;
+        if (doc && DOCS[doc]) a.href = `${pathPrefix}docs/${langCode}/${DOCS[doc]}`;
       });
     }
 
     function updateStoreBadges(lang) {
       const appLang = STORE_BADGE_LANGS.appStore.includes(lang) ? lang : 'en';
       const gpLang = STORE_BADGE_LANGS.googlePlay.includes(lang) ? lang : 'en';
-      appStoreImgs.forEach((img) => { img.src = `assets/store/app-store/${appLang}.svg`; });
-      googlePlayImgs.forEach((img) => { img.src = `assets/store/google-play/${gpLang}.svg`; });
+      appStoreImgs.forEach((img) => { img.src = `${pathPrefix}assets/store/app-store/${appLang}.svg`; });
+      googlePlayImgs.forEach((img) => { img.src = `${pathPrefix}assets/store/google-play/${gpLang}.svg`; });
     }
 
     function setTrigger(lang) {
       const flag = LANG_TO_FLAG[lang] ?? 'gb';
       const label = LANG_TO_LABEL[lang] ?? 'English';
-      if (triggerFlag) triggerFlag.src = `assets/flags/${flag}.svg`;
+      if (triggerFlag) triggerFlag.src = `${pathPrefix}assets/flags/${flag}.svg`;
       if (triggerLabel) triggerLabel.textContent = label;
       panel?.querySelectorAll('.lang-option').forEach((opt) => {
         opt.setAttribute('aria-selected', opt.getAttribute('data-lang') === lang ? 'true' : 'false');
       });
       updateStoreBadges(lang);
+    }
+
+    function navigateToLang(lang) {
+      const url = lang === 'en'
+        ? (pathPrefix ? '../../' : '/')
+        : pathPrefix + PAGES_BASE + lang + '/';
+      window.location.href = url;
     }
 
     function openDropdown() {
@@ -162,9 +180,8 @@
       opt.addEventListener('click', function () {
         const lang = this.getAttribute('data-lang');
         setLang(lang);
-        updateDocLinks(lang);
-        setTrigger(lang);
         closeDropdown();
+        navigateToLang(lang);
       });
     });
 
