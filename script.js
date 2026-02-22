@@ -37,8 +37,6 @@
   };
 
   const DOCS = { faq: 'faq.html', tos: 'tos.html', privacy: 'privacy.html', support: 'support.html' };
-  /** Site layout: language folders are inside /swipio/ (e.g. /swipio/en/, /swipio/de/, /swipio/zh/). */
-  const PAGES_BASE = '/swipio';
 
   // ─── Nav scroll state ───────────────────────────────────────────────────────
   function initNavScroll() {
@@ -96,8 +94,23 @@
     const pagesRe = new RegExp('^/swipio/([a-z]{2})(?:/|$)', 'i');
     const pagesMatch = pathname.match(pagesRe);
     const inLangFolder = pagesMatch && SUPPORTED_LANGS.includes(pagesMatch[1]);
-    const pathPrefix = inLangFolder ? '../' : '';
     const langFromPath = inLangFolder ? pagesMatch[1] : null;
+
+    function safeStorageGet(key) {
+      try {
+        return localStorage.getItem(key);
+      } catch {
+        return null;
+      }
+    }
+
+    function safeStorageSet(key, value) {
+      try {
+        localStorage.setItem(key, value);
+      } catch {
+        // ignore
+      }
+    }
 
     function detectBrowserLang() {
       const list = navigator.languages?.length ? navigator.languages : [navigator.language || ''];
@@ -110,13 +123,13 @@
 
     function getLang() {
       if (langFromPath) return langFromPath;
-      const stored = localStorage.getItem(STORAGE_KEY_LANG);
+      const stored = safeStorageGet(STORAGE_KEY_LANG);
       if (stored && SUPPORTED_LANGS.includes(stored)) return stored;
       return detectBrowserLang();
     }
 
     function setLang(lang) {
-      localStorage.setItem(STORAGE_KEY_LANG, lang);
+      safeStorageSet(STORAGE_KEY_LANG, lang);
     }
 
     function effectiveLang(lang) {
@@ -147,19 +160,20 @@
     }
 
     function setTrigger(lang) {
-      const flag = LANG_TO_FLAG[lang] ?? 'gb';
-      const label = LANG_TO_LABEL[lang] ?? 'English';
+      const langCode = effectiveLang(lang);
+      const flag = LANG_TO_FLAG[langCode] ?? 'gb';
+      const label = LANG_TO_LABEL[langCode] ?? 'English';
       if (triggerFlag) triggerFlag.src = `/assets/flags/${flag}.svg`;
       if (triggerLabel) triggerLabel.textContent = label;
       panel?.querySelectorAll('.lang-option').forEach((opt) => {
-        opt.setAttribute('aria-selected', opt.getAttribute('data-lang') === lang ? 'true' : 'false');
+        opt.setAttribute('aria-selected', opt.getAttribute('data-lang') === langCode ? 'true' : 'false');
       });
-      updateStoreBadges(lang);
+      updateStoreBadges(langCode);
     }
 
     function navigateToLang(lang) {
-      // Navigate to language folder inside /swipio/ (e.g. /swipio/en/, /swipio/zh/)
-      window.location.href = `/swipio/${lang}/`;
+      const langCode = effectiveLang(lang);
+      window.location.href = `/swipio/${langCode}/`;
     }
 
     function openDropdown() {
@@ -195,7 +209,7 @@
     });
 
     const current = getLang();
-    if (!localStorage.getItem(STORAGE_KEY_LANG)) setLang(current);
+    if (!safeStorageGet(STORAGE_KEY_LANG)) setLang(current);
 
     // When on root (not already in a language page), switch to the detected/stored language
     if (!inLangFolder) {

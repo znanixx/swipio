@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Redirecting to Privacy Policy...</title>
+  <meta http-equiv="refresh" content="0; url=/swipio/en/privacy.html">
+  <script>
+    (function() {
+      // Map of supported languages
+      const supportedLanguages = {
+        'cs': '/swipio/cs/privacy.html',    // Czech
+        'da': '/swipio/da/privacy.html',    // Danish
+        'de': '/swipio/de/privacy.html',    // German
+        'en': '/swipio/en/privacy.html',    // English
+        'es': '/swipio/es/privacy.html',    // Spanish
+        'fi': '/swipio/fi/privacy.html',    // Finnish
+        'fr': '/swipio/fr/privacy.html',    // French
+        'ga': '/swipio/ga/privacy.html',    // Irish
+        'hi': '/swipio/hi/privacy.html',    // Hindi
+        'it': '/swipio/it/privacy.html',    // Italian
+        'ja': '/swipio/ja/privacy.html',    // Japanese
+        'ko': '/swipio/ko/privacy.html',    // Korean
+        'nl': '/swipio/nl/privacy.html',    // Dutch
+        'no': '/swipio/no/privacy.html',    // Norwegian
+        'pl': '/swipio/pl/privacy.html',    // Polish
+        'pt': '/swipio/pt/privacy.html',    // Portuguese
+        'ro': '/swipio/ro/privacy.html',    // Romanian
+        'sv': '/swipio/sv/privacy.html',    // Swedish
+        'tr': '/swipio/tr/privacy.html',    // Turkish
+        'uk': '/swipio/uk/privacy.html',    // Ukrainian
+        'zh': '/swipio/zh/privacy.html'     // Chinese
+      };
+
+      // Get user's browser language
+      let userLanguage = navigator.language || navigator.userLanguage;
+      
+      // Extract just the language code (e.g., 'en' from 'en-US')
+      try {
+        userLanguage = userLanguage ? userLanguage.split('-')[0].toLowerCase() : 'en';
+      } catch (error) {
+        userLanguage = 'en';
+      }
+
+      // Determine the redirect URL
+      let redirectUrl = supportedLanguages[userLanguage] || '/swipio/en/privacy.html';
+
+      // Redirect
+      window.location.href = redirectUrl;
+    })();
+  </script>
+</head>
+<body>
+  <p>Redirecting to Privacy Policy in your language...</p>
+  <p>If you are not redirected automatically, <a href="/swipio/en/privacy.html">click here to continue</a>.</p>
+</body>
+</html>
