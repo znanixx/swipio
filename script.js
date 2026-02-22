@@ -36,7 +36,7 @@
     googlePlay: ['cs', 'da', 'de', 'en', 'es', 'fi', 'fr', 'ga', 'hi', 'it', 'ja', 'ko', 'nl', 'no', 'pl', 'pt', 'ro', 'sv', 'tr', 'uk', 'zh'],
   };
 
-  const DOCS = { tos: 'tos.html', privacy: 'privacy.html' };
+  const DOCS = { faq: 'faq.html', tos: 'tos.html', privacy: 'privacy.html', support: 'support.html' };
   /** Base path for language landing pages (e.g. "pages/" so en is at /, others at /pages/de/, etc.). */
   const PAGES_BASE = 'pages/';
 
@@ -128,7 +128,18 @@
       const langCode = effectiveLang(lang);
       docLinks.forEach((a) => {
         const doc = a.getAttribute('data-doc');
-        if (doc && DOCS[doc]) a.href = `${pathPrefix}docs/${langCode}/${DOCS[doc]}`;
+        if (doc && DOCS[doc]) {
+          if (doc === 'faq') {
+            // FAQ only exists in English
+            a.href = `${pathPrefix}${PAGES_BASE}en/${DOCS[doc]}`;
+          } else if (doc === 'support') {
+            // Support page exists in all languages
+            a.href = `${pathPrefix}${PAGES_BASE}${langCode}/${DOCS[doc]}`;
+          } else {
+            // Other docs have language-specific versions
+            a.href = `${pathPrefix}docs/${langCode}/${DOCS[doc]}`;
+          }
+        }
       });
     }
 
