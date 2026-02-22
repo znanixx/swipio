@@ -136,8 +136,8 @@
             // Support page exists in all languages
             a.href = `${pathPrefix}${PAGES_BASE}${langCode}/${DOCS[doc]}`;
           } else {
-            // Other docs have language-specific versions
-            a.href = `${pathPrefix}docs/${langCode}/${DOCS[doc]}`;
+            // Other docs (privacy, tos) have language-specific versions
+            a.href = `${pathPrefix}${PAGES_BASE}${langCode}/${DOCS[doc]}`;
           }
         }
       });
