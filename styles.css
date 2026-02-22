@@ -811,6 +811,107 @@ img { max-width: 100%; display: block; }
   width: auto;
 }
 
+/* ─── PAGE HERO (FAQ, etc.) ─── */
+
+.page-hero {
+  padding: 7rem 1.5rem 3rem;
+  text-align: center;
+  background: var(--bg-light);
+}
+
+.page-hero-inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+.page-hero .section-badge {
+  margin-bottom: 1rem;
+}
+
+.page-hero .section-title {
+  margin-bottom: 0.5rem;
+}
+
+.page-hero .section-subtitle {
+  margin: 0 auto;
+  max-width: 480px;
+}
+
+/* ─── FAQ ─── */
+
+.faq-section {
+  padding: 4rem 1.5rem 5rem;
+}
+
+.faq-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.faq-item {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 1.25rem 1.5rem;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.faq-item:hover {
+  border-color: rgba(168,85,247,0.25);
+  box-shadow: var(--shadow-sm);
+}
+
+.faq-q {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin: 0 0 0.5rem;
+  line-height: 1.4;
+  letter-spacing: -0.01em;
+}
+
+.faq-a {
+  font-size: 0.9375rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin: 0;
+}
+
+.faq-a a {
+  color: var(--purple);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.faq-a a:hover {
+  text-decoration: underline;
+}
+
+.faq-cta {
+  text-align: center;
+  margin-top: 2.5rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--border);
+}
+
+.faq-cta p {
+  font-size: 0.9375rem;
+  color: var(--text-secondary);
+  margin: 0 0 0.75rem;
+}
+
+.faq-cta a {
+  font-weight: 600;
+  color: var(--purple);
+  text-decoration: none;
+}
+
+.faq-cta a:hover {
+  text-decoration: underline;
+}
+
 /* ─── FOOTER ─── */
 
 .footer {

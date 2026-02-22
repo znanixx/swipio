@@ -1,5 +1,5 @@
 /**
- * Swipio landing page — navigation, scroll reveal, footer, language picker.
+ * Swipio landing page - navigation, scroll reveal, footer, language picker.
  * Runs in a single IIFE to avoid polluting global scope.
  */
 (function () {
@@ -191,6 +191,13 @@
 
     const current = getLang();
     if (!localStorage.getItem(STORAGE_KEY_LANG)) setLang(current);
+
+    // When on root (not already in a language page), switch to the detected/stored language
+    if (!inPagesFolder && current !== 'en') {
+      navigateToLang(current);
+      return;
+    }
+
     if (document.documentElement) document.documentElement.lang = current;
     setTrigger(current);
     updateDocLinks(current);
