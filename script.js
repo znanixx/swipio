@@ -37,8 +37,8 @@
   };
 
   const DOCS = { faq: 'faq.html', tos: 'tos.html', privacy: 'privacy.html', support: 'support.html' };
-  /** Site layout: language folders are at root (e.g. /en/, /de/, /zh/). */
-  const PAGES_BASE = '';
+  /** Site layout: language folders are inside /swipio/ (e.g. /swipio/en/, /swipio/de/, /swipio/zh/). */
+  const PAGES_BASE = '/swipio';
 
   // ─── Nav scroll state ───────────────────────────────────────────────────────
   function initNavScroll() {
@@ -93,7 +93,7 @@
     const googlePlayImgs = document.querySelectorAll('.store-btn img[src*="google-play"]');
 
     const pathname = window.location.pathname || '';
-    const pagesRe = new RegExp('^/([a-z]{2})(?:/|$)', 'i');
+    const pagesRe = new RegExp('^/swipio/([a-z]{2})(?:/|$)', 'i');
     const pagesMatch = pathname.match(pagesRe);
     const inLangFolder = pagesMatch && SUPPORTED_LANGS.includes(pagesMatch[1]);
     const pathPrefix = inLangFolder ? '../' : '';
@@ -128,11 +128,11 @@
       docLinks.forEach((a) => {
         const doc = a.getAttribute('data-doc');
         if (doc && DOCS[doc]) {
-          // Use absolute paths to language folders at site root
+          // Use absolute paths to language folders inside /swipio/
           if (doc === 'faq') {
-            a.href = `/en/${DOCS[doc]}`; // FAQ only in English
+            a.href = `/swipio/en/${DOCS[doc]}`; // FAQ only in English
           } else {
-            a.href = `/${langCode}/${DOCS[doc]}`;
+            a.href = `/swipio/${langCode}/${DOCS[doc]}`;
           }
         }
       });
@@ -158,8 +158,8 @@
     }
 
     function navigateToLang(lang) {
-      // Navigate to language folder at site root (e.g. /en/, /zh/)
-      window.location.href = `/${lang}/`;
+      // Navigate to language folder inside /swipio/ (e.g. /swipio/en/, /swipio/zh/)
+      window.location.href = `/swipio/${lang}/`;
     }
 
     function openDropdown() {
@@ -198,7 +198,7 @@
     if (!localStorage.getItem(STORAGE_KEY_LANG)) setLang(current);
 
     // When on root (not already in a language page), switch to the detected/stored language
-    if (!inLangFolder && current !== 'en') {
+    if (!inLangFolder) {
       navigateToLang(current);
       return;
     }

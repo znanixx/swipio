@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Redirecting...</title>
+  <meta http-equiv="refresh" content="0; url=/swipio/en/">
+  <script>
+    (function() {
+      // Map of supported languages
+      const supportedLanguages = {
+        'cs': '/swipio/cs/',    // Czech
+        'da': '/swipio/da/',    // Danish
+        'de': '/swipio/de/',    // German
+        'en': '/swipio/en/',    // English
+        'es': '/swipio/es/',    // Spanish
+        'fi': '/swipio/fi/',    // Finnish
+        'fr': '/swipio/fr/',    // French
+        'ga': '/swipio/ga/',    // Irish
+        'hi': '/swipio/hi/',    // Hindi
+        'it': '/swipio/it/',    // Italian
+        'ja': '/swipio/ja/',    // Japanese
+        'ko': '/swipio/ko/',    // Korean
+        'nl': '/swipio/nl/',    // Dutch
+        'no': '/swipio/no/',    // Norwegian
+        'pl': '/swipio/pl/',    // Polish
+        'pt': '/swipio/pt/',    // Portuguese
+        'ro': '/swipio/ro/',    // Romanian
+        'sv': '/swipio/sv/',    // Swedish
+        'tr': '/swipio/tr/',    // Turkish
+        'uk': '/swipio/uk/',    // Ukrainian
+        'zh': '/swipio/zh/'     // Chinese
+      };
+
+      // Get user's browser language
+      let userLanguage = navigator.language || navigator.userLanguage;
+      
+      // Extract just the language code (e.g., 'en' from 'en-US')
+      userLanguage = userLanguage.split('-')[0].toLowerCase();
+
+      // Determine the redirect URL
+      let redirectUrl = supportedLanguages[userLanguage] || '/swipio/en/';
+
+      // Redirect
+      window.location.href = redirectUrl;
+    })();
+  </script>
+</head>
+<body>
+  <p>Redirecting to your language version...</p>
+  <p>If you are not redirected automatically, <a href="/swipio/en/">click here to continue</a>.</p>
+</body>
+</html>
