@@ -37,8 +37,8 @@
   };
 
   const DOCS = { faq: 'faq.html', tos: 'tos.html', privacy: 'privacy.html', support: 'support.html' };
-  /** Base path for language landing pages (e.g. "pages/" so en is at /, others at /pages/de/, etc.). */
-  const PAGES_BASE = 'pages/';
+  /** Site layout: language folders are at root (e.g. /en/, /de/, /zh/). */
+  const PAGES_BASE = '';
 
   // ─── Nav scroll state ───────────────────────────────────────────────────────
   function initNavScroll() {
@@ -93,12 +93,11 @@
     const googlePlayImgs = document.querySelectorAll('.store-btn img[src*="google-play"]');
 
     const pathname = window.location.pathname || '';
-    const base = PAGES_BASE.replace(/\/$/, '');
-    const pagesRe = new RegExp('^/' + base.replace(/\//g, '\\/') + '/([a-z]{2})(?:/|$)', 'i');
+    const pagesRe = new RegExp('^/([a-z]{2})(?:/|$)', 'i');
     const pagesMatch = pathname.match(pagesRe);
-    const inPagesFolder = pagesMatch && SUPPORTED_LANGS.includes(pagesMatch[1]);
-    const pathPrefix = inPagesFolder ? '../../' : '';
-    const langFromPath = inPagesFolder ? pagesMatch[1] : null;
+    const inLangFolder = pagesMatch && SUPPORTED_LANGS.includes(pagesMatch[1]);
+    const pathPrefix = inLangFolder ? '../' : '';
+    const langFromPath = inLangFolder ? pagesMatch[1] : null;
 
     function detectBrowserLang() {
       const list = navigator.languages?.length ? navigator.languages : [navigator.language || ''];
@@ -129,15 +128,11 @@
       docLinks.forEach((a) => {
         const doc = a.getAttribute('data-doc');
         if (doc && DOCS[doc]) {
+          // Use absolute paths to language folders at site root
           if (doc === 'faq') {
-            // FAQ only exists in English
-            a.href = `${pathPrefix}${PAGES_BASE}en/${DOCS[doc]}`;
-          } else if (doc === 'support') {
-            // Support page exists in all languages
-            a.href = `${pathPrefix}${PAGES_BASE}${langCode}/${DOCS[doc]}`;
+            a.href = `/en/${DOCS[doc]}`; // FAQ only in English
           } else {
-            // Other docs (privacy, tos) have language-specific versions
-            a.href = `${pathPrefix}${PAGES_BASE}${langCode}/${DOCS[doc]}`;
+            a.href = `/${langCode}/${DOCS[doc]}`;
           }
         }
       });
@@ -146,14 +141,15 @@
     function updateStoreBadges(lang) {
       const appLang = STORE_BADGE_LANGS.appStore.includes(lang) ? lang : 'en';
       const gpLang = STORE_BADGE_LANGS.googlePlay.includes(lang) ? lang : 'en';
-      appStoreImgs.forEach((img) => { img.src = `${pathPrefix}assets/store/app-store/${appLang}.svg`; });
-      googlePlayImgs.forEach((img) => { img.src = `${pathPrefix}assets/store/google-play/${gpLang}.svg`; });
+      // use absolute paths from site root
+      appStoreImgs.forEach((img) => { img.src = `/assets/store/app-store/${appLang}.svg`; });
+      googlePlayImgs.forEach((img) => { img.src = `/assets/store/google-play/${gpLang}.svg`; });
     }
 
     function setTrigger(lang) {
       const flag = LANG_TO_FLAG[lang] ?? 'gb';
       const label = LANG_TO_LABEL[lang] ?? 'English';
-      if (triggerFlag) triggerFlag.src = `${pathPrefix}assets/flags/${flag}.svg`;
+      if (triggerFlag) triggerFlag.src = `/assets/flags/${flag}.svg`;
       if (triggerLabel) triggerLabel.textContent = label;
       panel?.querySelectorAll('.lang-option').forEach((opt) => {
         opt.setAttribute('aria-selected', opt.getAttribute('data-lang') === lang ? 'true' : 'false');
@@ -162,10 +158,8 @@
     }
 
     function navigateToLang(lang) {
-      const url = lang === 'en'
-        ? (pathPrefix ? '../../' : '/')
-        : pathPrefix + PAGES_BASE + lang + '/';
-      window.location.href = url;
+      // Navigate to language folder at site root (e.g. /en/, /zh/)
+      window.location.href = `/${lang}/`;
     }
 
     function openDropdown() {
@@ -204,7 +198,7 @@
     if (!localStorage.getItem(STORAGE_KEY_LANG)) setLang(current);
 
     // When on root (not already in a language page), switch to the detected/stored language
-    if (!inPagesFolder && current !== 'en') {
+    if (!inLangFolder && current !== 'en') {
       navigateToLang(current);
       return;
     }
