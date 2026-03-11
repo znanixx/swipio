@@ -38,6 +38,22 @@
 
   const DOCS = { faq: 'faq.html', tos: 'tos.html', privacy: 'privacy.html', support: 'support.html' };
 
+  /** App store URLs – update these in one place to change links across all languages. */
+  const STORE_URLS = {
+    appStore: 'https://apps.apple.com/app/id6759218522',
+    googlePlay: 'https://play.google.com/store/apps/details?id=com.mykhailiuk_v.swipio',
+  };
+
+  // ─── Store links (single source of truth) ────────────────────────────────────
+  function initStoreLinks() {
+    document.querySelectorAll('a.store-btn').forEach((a) => {
+      const img = a.querySelector('img');
+      if (!img || !img.src) return;
+      if (img.src.includes('app-store')) a.href = STORE_URLS.appStore;
+      else if (img.src.includes('google-play')) a.href = STORE_URLS.googlePlay;
+    });
+  }
+
   // ─── Nav scroll state ───────────────────────────────────────────────────────
   function initNavScroll() {
     const nav = document.getElementById('nav');
@@ -227,4 +243,5 @@
   initFooterYear();
   initScrollReveal();
   initLanguagePicker();
+  initStoreLinks();
 })();
