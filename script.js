@@ -92,7 +92,13 @@
       { threshold: REVEAL_THRESHOLD, rootMargin: REVEAL_ROOT_MARGIN }
     );
 
-    document.querySelectorAll('.fade-in').forEach((el) => observer.observe(el));
+    document.querySelectorAll('.fade-in').forEach((el) => {
+      if (el.closest('#hero')) {
+        el.classList.add('visible');
+        return;
+      }
+      observer.observe(el);
+    });
   }
 
   // ─── Language picker ────────────────────────────────────────────────────────
