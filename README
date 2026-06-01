@@ -1,0 +1,1 @@
+Re-run node scripts/generate-seo.mjs only when change FAQ text or languages.

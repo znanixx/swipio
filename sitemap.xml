@@ -1,39 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://znanixx.com/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://znanixx.com/"/>
-    <xhtml:link rel="alternate" hreflang="cs" href="https://znanixx.com/swipio/cs/"/>
-    <xhtml:link rel="alternate" hreflang="da" href="https://znanixx.com/swipio/da/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://znanixx.com/swipio/de/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://znanixx.com/swipio/es/"/>
-    <xhtml:link rel="alternate" hreflang="fi" href="https://znanixx.com/swipio/fi/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://znanixx.com/swipio/fr/"/>
-    <xhtml:link rel="alternate" hreflang="ga" href="https://znanixx.com/swipio/ga/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://znanixx.com/swipio/hi/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://znanixx.com/swipio/it/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://znanixx.com/swipio/ja/"/>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://znanixx.com/swipio/ko/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://znanixx.com/swipio/nl/"/>
-    <xhtml:link rel="alternate" hreflang="no" href="https://znanixx.com/swipio/no/"/>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://znanixx.com/swipio/pl/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://znanixx.com/swipio/pt/"/>
-    <xhtml:link rel="alternate" hreflang="ro" href="https://znanixx.com/swipio/ro/"/>
-    <xhtml:link rel="alternate" hreflang="sv" href="https://znanixx.com/swipio/sv/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://znanixx.com/swipio/tr/"/>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://znanixx.com/swipio/uk/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://znanixx.com/swipio/zh/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://znanixx.com/"/>
-    <lastmod>2026-04-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
     <loc>https://znanixx.com/swipio/cs/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://znanixx.com/"/>
     <xhtml:link rel="alternate" hreflang="cs" href="https://znanixx.com/swipio/cs/"/>
     <xhtml:link rel="alternate" hreflang="da" href="https://znanixx.com/swipio/da/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://znanixx.com/swipio/de/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://znanixx.com/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://znanixx.com/swipio/es/"/>
     <xhtml:link rel="alternate" hreflang="fi" href="https://znanixx.com/swipio/fi/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://znanixx.com/swipio/fr/"/>
@@ -52,16 +24,16 @@
     <xhtml:link rel="alternate" hreflang="uk" href="https://znanixx.com/swipio/uk/"/>
     <xhtml:link rel="alternate" hreflang="zh" href="https://znanixx.com/swipio/zh/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://znanixx.com/"/>
-    <lastmod>2026-04-05</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://znanixx.com/swipio/da/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://znanixx.com/"/>
     <xhtml:link rel="alternate" hreflang="cs" href="https://znanixx.com/swipio/cs/"/>
     <xhtml:link rel="alternate" hreflang="da" href="https://znanixx.com/swipio/da/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://znanixx.com/swipio/de/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://znanixx.com/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://znanixx.com/swipio/es/"/>
     <xhtml:link rel="alternate" hreflang="fi" href="https://znanixx.com/swipio/fi/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://znanixx.com/swipio/fr/"/>
@@ -80,16 +52,16 @@
     <xhtml:link rel="alternate" hreflang="uk" href="https://znanixx.com/swipio/uk/"/>
     <xhtml:link rel="alternate" hreflang="zh" href="https://znanixx.com/swipio/zh/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://znanixx.com/"/>
-    <lastmod>2026-04-05</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://znanixx.com/swipio/de/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://znanixx.com/"/>
     <xhtml:link rel="alternate" hreflang="cs" href="https://znanixx.com/swipio/cs/"/>
     <xhtml:link rel="alternate" hreflang="da" href="https://znanixx.com/swipio/da/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://znanixx.com/swipio/de/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://znanixx.com/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://znanixx.com/swipio/es/"/>
     <xhtml:link rel="alternate" hreflang="fi" href="https://znanixx.com/swipio/fi/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://znanixx.com/swipio/fr/"/>
@@ -108,16 +80,16 @@
     <xhtml:link rel="alternate" hreflang="uk" href="https://znanixx.com/swipio/uk/"/>
     <xhtml:link rel="alternate" hreflang="zh" href="https://znanixx.com/swipio/zh/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://znanixx.com/"/>
-    <lastmod>2026-04-05</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://znanixx.com/swipio/es/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://znanixx.com/"/>
+    <loc>https://znanixx.com/</loc>
     <xhtml:link rel="alternate" hreflang="cs" href="https://znanixx.com/swipio/cs/"/>
     <xhtml:link rel="alternate" hreflang="da" href="https://znanixx.com/swipio/da/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://znanixx.com/swipio/de/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://znanixx.com/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://znanixx.com/swipio/es/"/>
     <xhtml:link rel="alternate" hreflang="fi" href="https://znanixx.com/swipio/fi/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://znanixx.com/swipio/fr/"/>
@@ -136,16 +108,44 @@
     <xhtml:link rel="alternate" hreflang="uk" href="https://znanixx.com/swipio/uk/"/>
     <xhtml:link rel="alternate" hreflang="zh" href="https://znanixx.com/swipio/zh/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://znanixx.com/"/>
-    <lastmod>2026-04-05</lastmod>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://znanixx.com/swipio/es/</loc>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://znanixx.com/swipio/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://znanixx.com/swipio/da/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://znanixx.com/swipio/de/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://znanixx.com/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://znanixx.com/swipio/es/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://znanixx.com/swipio/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://znanixx.com/swipio/fr/"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://znanixx.com/swipio/ga/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://znanixx.com/swipio/hi/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://znanixx.com/swipio/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://znanixx.com/swipio/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://znanixx.com/swipio/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://znanixx.com/swipio/nl/"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://znanixx.com/swipio/no/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://znanixx.com/swipio/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://znanixx.com/swipio/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://znanixx.com/swipio/ro/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://znanixx.com/swipio/sv/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://znanixx.com/swipio/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://znanixx.com/swipio/uk/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://znanixx.com/swipio/zh/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://znanixx.com/"/>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://znanixx.com/swipio/fi/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://znanixx.com/"/>
     <xhtml:link rel="alternate" hreflang="cs" href="https://znanixx.com/swipio/cs/"/>
     <xhtml:link rel="alternate" hreflang="da" href="https://znanixx.com/swipio/da/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://znanixx.com/swipio/de/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://znanixx.com/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://znanixx.com/swipio/es/"/>
     <xhtml:link rel="alternate" hreflang="fi" href="https://znanixx.com/swipio/fi/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://znanixx.com/swipio/fr/"/>
@@ -164,16 +164,16 @@
     <xhtml:link rel="alternate" hreflang="uk" href="https://znanixx.com/swipio/uk/"/>
     <xhtml:link rel="alternate" hreflang="zh" href="https://znanixx.com/swipio/zh/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://znanixx.com/"/>
-    <lastmod>2026-04-05</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://znanixx.com/swipio/fr/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://znanixx.com/"/>
     <xhtml:link rel="alternate" hreflang="cs" href="https://znanixx.com/swipio/cs/"/>
     <xhtml:link rel="alternate" hreflang="da" href="https://znanixx.com/swipio/da/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://znanixx.com/swipio/de/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://znanixx.com/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://znanixx.com/swipio/es/"/>
     <xhtml:link rel="alternate" hreflang="fi" href="https://znanixx.com/swipio/fi/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://znanixx.com/swipio/fr/"/>
@@ -192,16 +192,16 @@
     <xhtml:link rel="alternate" hreflang="uk" href="https://znanixx.com/swipio/uk/"/>
     <xhtml:link rel="alternate" hreflang="zh" href="https://znanixx.com/swipio/zh/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://znanixx.com/"/>
-    <lastmod>2026-04-05</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://znanixx.com/swipio/ga/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://znanixx.com/"/>
     <xhtml:link rel="alternate" hreflang="cs" href="https://znanixx.com/swipio/cs/"/>
     <xhtml:link rel="alternate" hreflang="da" href="https://znanixx.com/swipio/da/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://znanixx.com/swipio/de/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://znanixx.com/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://znanixx.com/swipio/es/"/>
     <xhtml:link rel="alternate" hreflang="fi" href="https://znanixx.com/swipio/fi/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://znanixx.com/swipio/fr/"/>
@@ -220,16 +220,16 @@
     <xhtml:link rel="alternate" hreflang="uk" href="https://znanixx.com/swipio/uk/"/>
     <xhtml:link rel="alternate" hreflang="zh" href="https://znanixx.com/swipio/zh/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://znanixx.com/"/>
-    <lastmod>2026-04-05</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://znanixx.com/swipio/hi/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://znanixx.com/"/>
     <xhtml:link rel="alternate" hreflang="cs" href="https://znanixx.com/swipio/cs/"/>
     <xhtml:link rel="alternate" hreflang="da" href="https://znanixx.com/swipio/da/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://znanixx.com/swipio/de/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://znanixx.com/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://znanixx.com/swipio/es/"/>
     <xhtml:link rel="alternate" hreflang="fi" href="https://znanixx.com/swipio/fi/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://znanixx.com/swipio/fr/"/>
@@ -248,16 +248,16 @@
     <xhtml:link rel="alternate" hreflang="uk" href="https://znanixx.com/swipio/uk/"/>
     <xhtml:link rel="alternate" hreflang="zh" href="https://znanixx.com/swipio/zh/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://znanixx.com/"/>
-    <lastmod>2026-04-05</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://znanixx.com/swipio/it/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://znanixx.com/"/>
     <xhtml:link rel="alternate" hreflang="cs" href="https://znanixx.com/swipio/cs/"/>
     <xhtml:link rel="alternate" hreflang="da" href="https://znanixx.com/swipio/da/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://znanixx.com/swipio/de/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://znanixx.com/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://znanixx.com/swipio/es/"/>
     <xhtml:link rel="alternate" hreflang="fi" href="https://znanixx.com/swipio/fi/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://znanixx.com/swipio/fr/"/>
@@ -276,16 +276,16 @@
     <xhtml:link rel="alternate" hreflang="uk" href="https://znanixx.com/swipio/uk/"/>
     <xhtml:link rel="alternate" hreflang="zh" href="https://znanixx.com/swipio/zh/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://znanixx.com/"/>
-    <lastmod>2026-04-05</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://znanixx.com/swipio/ja/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://znanixx.com/"/>
     <xhtml:link rel="alternate" hreflang="cs" href="https://znanixx.com/swipio/cs/"/>
     <xhtml:link rel="alternate" hreflang="da" href="https://znanixx.com/swipio/da/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://znanixx.com/swipio/de/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://znanixx.com/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://znanixx.com/swipio/es/"/>
     <xhtml:link rel="alternate" hreflang="fi" href="https://znanixx.com/swipio/fi/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://znanixx.com/swipio/fr/"/>
@@ -304,16 +304,16 @@
     <xhtml:link rel="alternate" hreflang="uk" href="https://znanixx.com/swipio/uk/"/>
     <xhtml:link rel="alternate" hreflang="zh" href="https://znanixx.com/swipio/zh/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://znanixx.com/"/>
-    <lastmod>2026-04-05</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://znanixx.com/swipio/ko/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://znanixx.com/"/>
     <xhtml:link rel="alternate" hreflang="cs" href="https://znanixx.com/swipio/cs/"/>
     <xhtml:link rel="alternate" hreflang="da" href="https://znanixx.com/swipio/da/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://znanixx.com/swipio/de/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://znanixx.com/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://znanixx.com/swipio/es/"/>
     <xhtml:link rel="alternate" hreflang="fi" href="https://znanixx.com/swipio/fi/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://znanixx.com/swipio/fr/"/>
@@ -332,16 +332,16 @@
     <xhtml:link rel="alternate" hreflang="uk" href="https://znanixx.com/swipio/uk/"/>
     <xhtml:link rel="alternate" hreflang="zh" href="https://znanixx.com/swipio/zh/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://znanixx.com/"/>
-    <lastmod>2026-04-05</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://znanixx.com/swipio/nl/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://znanixx.com/"/>
     <xhtml:link rel="alternate" hreflang="cs" href="https://znanixx.com/swipio/cs/"/>
     <xhtml:link rel="alternate" hreflang="da" href="https://znanixx.com/swipio/da/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://znanixx.com/swipio/de/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://znanixx.com/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://znanixx.com/swipio/es/"/>
     <xhtml:link rel="alternate" hreflang="fi" href="https://znanixx.com/swipio/fi/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://znanixx.com/swipio/fr/"/>
@@ -360,16 +360,16 @@
     <xhtml:link rel="alternate" hreflang="uk" href="https://znanixx.com/swipio/uk/"/>
     <xhtml:link rel="alternate" hreflang="zh" href="https://znanixx.com/swipio/zh/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://znanixx.com/"/>
-    <lastmod>2026-04-05</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://znanixx.com/swipio/no/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://znanixx.com/"/>
     <xhtml:link rel="alternate" hreflang="cs" href="https://znanixx.com/swipio/cs/"/>
     <xhtml:link rel="alternate" hreflang="da" href="https://znanixx.com/swipio/da/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://znanixx.com/swipio/de/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://znanixx.com/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://znanixx.com/swipio/es/"/>
     <xhtml:link rel="alternate" hreflang="fi" href="https://znanixx.com/swipio/fi/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://znanixx.com/swipio/fr/"/>
@@ -388,16 +388,16 @@
     <xhtml:link rel="alternate" hreflang="uk" href="https://znanixx.com/swipio/uk/"/>
     <xhtml:link rel="alternate" hreflang="zh" href="https://znanixx.com/swipio/zh/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://znanixx.com/"/>
-    <lastmod>2026-04-05</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://znanixx.com/swipio/pl/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://znanixx.com/"/>
     <xhtml:link rel="alternate" hreflang="cs" href="https://znanixx.com/swipio/cs/"/>
     <xhtml:link rel="alternate" hreflang="da" href="https://znanixx.com/swipio/da/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://znanixx.com/swipio/de/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://znanixx.com/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://znanixx.com/swipio/es/"/>
     <xhtml:link rel="alternate" hreflang="fi" href="https://znanixx.com/swipio/fi/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://znanixx.com/swipio/fr/"/>
@@ -416,16 +416,16 @@
     <xhtml:link rel="alternate" hreflang="uk" href="https://znanixx.com/swipio/uk/"/>
     <xhtml:link rel="alternate" hreflang="zh" href="https://znanixx.com/swipio/zh/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://znanixx.com/"/>
-    <lastmod>2026-04-05</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://znanixx.com/swipio/pt/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://znanixx.com/"/>
     <xhtml:link rel="alternate" hreflang="cs" href="https://znanixx.com/swipio/cs/"/>
     <xhtml:link rel="alternate" hreflang="da" href="https://znanixx.com/swipio/da/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://znanixx.com/swipio/de/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://znanixx.com/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://znanixx.com/swipio/es/"/>
     <xhtml:link rel="alternate" hreflang="fi" href="https://znanixx.com/swipio/fi/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://znanixx.com/swipio/fr/"/>
@@ -444,16 +444,16 @@
     <xhtml:link rel="alternate" hreflang="uk" href="https://znanixx.com/swipio/uk/"/>
     <xhtml:link rel="alternate" hreflang="zh" href="https://znanixx.com/swipio/zh/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://znanixx.com/"/>
-    <lastmod>2026-04-05</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://znanixx.com/swipio/ro/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://znanixx.com/"/>
     <xhtml:link rel="alternate" hreflang="cs" href="https://znanixx.com/swipio/cs/"/>
     <xhtml:link rel="alternate" hreflang="da" href="https://znanixx.com/swipio/da/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://znanixx.com/swipio/de/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://znanixx.com/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://znanixx.com/swipio/es/"/>
     <xhtml:link rel="alternate" hreflang="fi" href="https://znanixx.com/swipio/fi/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://znanixx.com/swipio/fr/"/>
@@ -472,16 +472,16 @@
     <xhtml:link rel="alternate" hreflang="uk" href="https://znanixx.com/swipio/uk/"/>
     <xhtml:link rel="alternate" hreflang="zh" href="https://znanixx.com/swipio/zh/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://znanixx.com/"/>
-    <lastmod>2026-04-05</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://znanixx.com/swipio/sv/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://znanixx.com/"/>
     <xhtml:link rel="alternate" hreflang="cs" href="https://znanixx.com/swipio/cs/"/>
     <xhtml:link rel="alternate" hreflang="da" href="https://znanixx.com/swipio/da/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://znanixx.com/swipio/de/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://znanixx.com/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://znanixx.com/swipio/es/"/>
     <xhtml:link rel="alternate" hreflang="fi" href="https://znanixx.com/swipio/fi/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://znanixx.com/swipio/fr/"/>
@@ -500,16 +500,16 @@
     <xhtml:link rel="alternate" hreflang="uk" href="https://znanixx.com/swipio/uk/"/>
     <xhtml:link rel="alternate" hreflang="zh" href="https://znanixx.com/swipio/zh/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://znanixx.com/"/>
-    <lastmod>2026-04-05</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://znanixx.com/swipio/tr/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://znanixx.com/"/>
     <xhtml:link rel="alternate" hreflang="cs" href="https://znanixx.com/swipio/cs/"/>
     <xhtml:link rel="alternate" hreflang="da" href="https://znanixx.com/swipio/da/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://znanixx.com/swipio/de/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://znanixx.com/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://znanixx.com/swipio/es/"/>
     <xhtml:link rel="alternate" hreflang="fi" href="https://znanixx.com/swipio/fi/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://znanixx.com/swipio/fr/"/>
@@ -528,16 +528,16 @@
     <xhtml:link rel="alternate" hreflang="uk" href="https://znanixx.com/swipio/uk/"/>
     <xhtml:link rel="alternate" hreflang="zh" href="https://znanixx.com/swipio/zh/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://znanixx.com/"/>
-    <lastmod>2026-04-05</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://znanixx.com/swipio/uk/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://znanixx.com/"/>
     <xhtml:link rel="alternate" hreflang="cs" href="https://znanixx.com/swipio/cs/"/>
     <xhtml:link rel="alternate" hreflang="da" href="https://znanixx.com/swipio/da/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://znanixx.com/swipio/de/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://znanixx.com/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://znanixx.com/swipio/es/"/>
     <xhtml:link rel="alternate" hreflang="fi" href="https://znanixx.com/swipio/fi/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://znanixx.com/swipio/fr/"/>
@@ -556,16 +556,16 @@
     <xhtml:link rel="alternate" hreflang="uk" href="https://znanixx.com/swipio/uk/"/>
     <xhtml:link rel="alternate" hreflang="zh" href="https://znanixx.com/swipio/zh/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://znanixx.com/"/>
-    <lastmod>2026-04-05</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://znanixx.com/swipio/zh/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://znanixx.com/"/>
     <xhtml:link rel="alternate" hreflang="cs" href="https://znanixx.com/swipio/cs/"/>
     <xhtml:link rel="alternate" hreflang="da" href="https://znanixx.com/swipio/da/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://znanixx.com/swipio/de/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://znanixx.com/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://znanixx.com/swipio/es/"/>
     <xhtml:link rel="alternate" hreflang="fi" href="https://znanixx.com/swipio/fi/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://znanixx.com/swipio/fr/"/>
@@ -584,8 +584,1184 @@
     <xhtml:link rel="alternate" hreflang="uk" href="https://znanixx.com/swipio/uk/"/>
     <xhtml:link rel="alternate" hreflang="zh" href="https://znanixx.com/swipio/zh/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://znanixx.com/"/>
-    <lastmod>2026-04-05</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://znanixx.com/swipio/cs/faq.html</loc>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://znanixx.com/swipio/cs/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://znanixx.com/swipio/da/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://znanixx.com/swipio/de/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://znanixx.com/swipio/en/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://znanixx.com/swipio/es/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://znanixx.com/swipio/fi/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://znanixx.com/swipio/fr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://znanixx.com/swipio/ga/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://znanixx.com/swipio/hi/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://znanixx.com/swipio/it/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://znanixx.com/swipio/ja/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://znanixx.com/swipio/ko/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://znanixx.com/swipio/nl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://znanixx.com/swipio/no/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://znanixx.com/swipio/pl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://znanixx.com/swipio/pt/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://znanixx.com/swipio/ro/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://znanixx.com/swipio/sv/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://znanixx.com/swipio/tr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://znanixx.com/swipio/uk/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://znanixx.com/swipio/zh/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://znanixx.com/swipio/en/faq.html"/>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://znanixx.com/swipio/da/faq.html</loc>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://znanixx.com/swipio/cs/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://znanixx.com/swipio/da/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://znanixx.com/swipio/de/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://znanixx.com/swipio/en/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://znanixx.com/swipio/es/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://znanixx.com/swipio/fi/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://znanixx.com/swipio/fr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://znanixx.com/swipio/ga/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://znanixx.com/swipio/hi/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://znanixx.com/swipio/it/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://znanixx.com/swipio/ja/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://znanixx.com/swipio/ko/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://znanixx.com/swipio/nl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://znanixx.com/swipio/no/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://znanixx.com/swipio/pl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://znanixx.com/swipio/pt/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://znanixx.com/swipio/ro/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://znanixx.com/swipio/sv/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://znanixx.com/swipio/tr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://znanixx.com/swipio/uk/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://znanixx.com/swipio/zh/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://znanixx.com/swipio/en/faq.html"/>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://znanixx.com/swipio/de/faq.html</loc>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://znanixx.com/swipio/cs/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://znanixx.com/swipio/da/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://znanixx.com/swipio/de/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://znanixx.com/swipio/en/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://znanixx.com/swipio/es/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://znanixx.com/swipio/fi/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://znanixx.com/swipio/fr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://znanixx.com/swipio/ga/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://znanixx.com/swipio/hi/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://znanixx.com/swipio/it/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://znanixx.com/swipio/ja/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://znanixx.com/swipio/ko/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://znanixx.com/swipio/nl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://znanixx.com/swipio/no/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://znanixx.com/swipio/pl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://znanixx.com/swipio/pt/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://znanixx.com/swipio/ro/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://znanixx.com/swipio/sv/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://znanixx.com/swipio/tr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://znanixx.com/swipio/uk/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://znanixx.com/swipio/zh/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://znanixx.com/swipio/en/faq.html"/>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://znanixx.com/swipio/en/faq.html</loc>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://znanixx.com/swipio/cs/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://znanixx.com/swipio/da/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://znanixx.com/swipio/de/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://znanixx.com/swipio/en/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://znanixx.com/swipio/es/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://znanixx.com/swipio/fi/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://znanixx.com/swipio/fr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://znanixx.com/swipio/ga/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://znanixx.com/swipio/hi/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://znanixx.com/swipio/it/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://znanixx.com/swipio/ja/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://znanixx.com/swipio/ko/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://znanixx.com/swipio/nl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://znanixx.com/swipio/no/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://znanixx.com/swipio/pl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://znanixx.com/swipio/pt/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://znanixx.com/swipio/ro/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://znanixx.com/swipio/sv/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://znanixx.com/swipio/tr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://znanixx.com/swipio/uk/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://znanixx.com/swipio/zh/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://znanixx.com/swipio/en/faq.html"/>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://znanixx.com/swipio/es/faq.html</loc>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://znanixx.com/swipio/cs/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://znanixx.com/swipio/da/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://znanixx.com/swipio/de/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://znanixx.com/swipio/en/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://znanixx.com/swipio/es/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://znanixx.com/swipio/fi/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://znanixx.com/swipio/fr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://znanixx.com/swipio/ga/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://znanixx.com/swipio/hi/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://znanixx.com/swipio/it/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://znanixx.com/swipio/ja/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://znanixx.com/swipio/ko/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://znanixx.com/swipio/nl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://znanixx.com/swipio/no/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://znanixx.com/swipio/pl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://znanixx.com/swipio/pt/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://znanixx.com/swipio/ro/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://znanixx.com/swipio/sv/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://znanixx.com/swipio/tr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://znanixx.com/swipio/uk/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://znanixx.com/swipio/zh/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://znanixx.com/swipio/en/faq.html"/>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://znanixx.com/swipio/fi/faq.html</loc>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://znanixx.com/swipio/cs/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://znanixx.com/swipio/da/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://znanixx.com/swipio/de/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://znanixx.com/swipio/en/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://znanixx.com/swipio/es/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://znanixx.com/swipio/fi/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://znanixx.com/swipio/fr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://znanixx.com/swipio/ga/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://znanixx.com/swipio/hi/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://znanixx.com/swipio/it/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://znanixx.com/swipio/ja/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://znanixx.com/swipio/ko/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://znanixx.com/swipio/nl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://znanixx.com/swipio/no/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://znanixx.com/swipio/pl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://znanixx.com/swipio/pt/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://znanixx.com/swipio/ro/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://znanixx.com/swipio/sv/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://znanixx.com/swipio/tr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://znanixx.com/swipio/uk/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://znanixx.com/swipio/zh/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://znanixx.com/swipio/en/faq.html"/>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://znanixx.com/swipio/fr/faq.html</loc>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://znanixx.com/swipio/cs/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://znanixx.com/swipio/da/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://znanixx.com/swipio/de/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://znanixx.com/swipio/en/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://znanixx.com/swipio/es/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://znanixx.com/swipio/fi/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://znanixx.com/swipio/fr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://znanixx.com/swipio/ga/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://znanixx.com/swipio/hi/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://znanixx.com/swipio/it/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://znanixx.com/swipio/ja/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://znanixx.com/swipio/ko/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://znanixx.com/swipio/nl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://znanixx.com/swipio/no/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://znanixx.com/swipio/pl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://znanixx.com/swipio/pt/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://znanixx.com/swipio/ro/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://znanixx.com/swipio/sv/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://znanixx.com/swipio/tr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://znanixx.com/swipio/uk/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://znanixx.com/swipio/zh/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://znanixx.com/swipio/en/faq.html"/>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://znanixx.com/swipio/ga/faq.html</loc>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://znanixx.com/swipio/cs/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://znanixx.com/swipio/da/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://znanixx.com/swipio/de/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://znanixx.com/swipio/en/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://znanixx.com/swipio/es/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://znanixx.com/swipio/fi/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://znanixx.com/swipio/fr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://znanixx.com/swipio/ga/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://znanixx.com/swipio/hi/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://znanixx.com/swipio/it/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://znanixx.com/swipio/ja/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://znanixx.com/swipio/ko/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://znanixx.com/swipio/nl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://znanixx.com/swipio/no/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://znanixx.com/swipio/pl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://znanixx.com/swipio/pt/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://znanixx.com/swipio/ro/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://znanixx.com/swipio/sv/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://znanixx.com/swipio/tr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://znanixx.com/swipio/uk/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://znanixx.com/swipio/zh/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://znanixx.com/swipio/en/faq.html"/>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://znanixx.com/swipio/hi/faq.html</loc>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://znanixx.com/swipio/cs/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://znanixx.com/swipio/da/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://znanixx.com/swipio/de/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://znanixx.com/swipio/en/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://znanixx.com/swipio/es/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://znanixx.com/swipio/fi/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://znanixx.com/swipio/fr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://znanixx.com/swipio/ga/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://znanixx.com/swipio/hi/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://znanixx.com/swipio/it/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://znanixx.com/swipio/ja/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://znanixx.com/swipio/ko/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://znanixx.com/swipio/nl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://znanixx.com/swipio/no/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://znanixx.com/swipio/pl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://znanixx.com/swipio/pt/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://znanixx.com/swipio/ro/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://znanixx.com/swipio/sv/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://znanixx.com/swipio/tr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://znanixx.com/swipio/uk/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://znanixx.com/swipio/zh/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://znanixx.com/swipio/en/faq.html"/>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://znanixx.com/swipio/it/faq.html</loc>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://znanixx.com/swipio/cs/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://znanixx.com/swipio/da/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://znanixx.com/swipio/de/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://znanixx.com/swipio/en/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://znanixx.com/swipio/es/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://znanixx.com/swipio/fi/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://znanixx.com/swipio/fr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://znanixx.com/swipio/ga/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://znanixx.com/swipio/hi/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://znanixx.com/swipio/it/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://znanixx.com/swipio/ja/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://znanixx.com/swipio/ko/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://znanixx.com/swipio/nl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://znanixx.com/swipio/no/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://znanixx.com/swipio/pl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://znanixx.com/swipio/pt/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://znanixx.com/swipio/ro/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://znanixx.com/swipio/sv/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://znanixx.com/swipio/tr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://znanixx.com/swipio/uk/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://znanixx.com/swipio/zh/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://znanixx.com/swipio/en/faq.html"/>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://znanixx.com/swipio/ja/faq.html</loc>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://znanixx.com/swipio/cs/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://znanixx.com/swipio/da/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://znanixx.com/swipio/de/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://znanixx.com/swipio/en/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://znanixx.com/swipio/es/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://znanixx.com/swipio/fi/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://znanixx.com/swipio/fr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://znanixx.com/swipio/ga/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://znanixx.com/swipio/hi/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://znanixx.com/swipio/it/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://znanixx.com/swipio/ja/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://znanixx.com/swipio/ko/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://znanixx.com/swipio/nl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://znanixx.com/swipio/no/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://znanixx.com/swipio/pl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://znanixx.com/swipio/pt/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://znanixx.com/swipio/ro/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://znanixx.com/swipio/sv/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://znanixx.com/swipio/tr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://znanixx.com/swipio/uk/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://znanixx.com/swipio/zh/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://znanixx.com/swipio/en/faq.html"/>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://znanixx.com/swipio/ko/faq.html</loc>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://znanixx.com/swipio/cs/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://znanixx.com/swipio/da/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://znanixx.com/swipio/de/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://znanixx.com/swipio/en/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://znanixx.com/swipio/es/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://znanixx.com/swipio/fi/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://znanixx.com/swipio/fr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://znanixx.com/swipio/ga/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://znanixx.com/swipio/hi/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://znanixx.com/swipio/it/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://znanixx.com/swipio/ja/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://znanixx.com/swipio/ko/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://znanixx.com/swipio/nl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://znanixx.com/swipio/no/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://znanixx.com/swipio/pl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://znanixx.com/swipio/pt/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://znanixx.com/swipio/ro/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://znanixx.com/swipio/sv/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://znanixx.com/swipio/tr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://znanixx.com/swipio/uk/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://znanixx.com/swipio/zh/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://znanixx.com/swipio/en/faq.html"/>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://znanixx.com/swipio/nl/faq.html</loc>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://znanixx.com/swipio/cs/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://znanixx.com/swipio/da/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://znanixx.com/swipio/de/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://znanixx.com/swipio/en/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://znanixx.com/swipio/es/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://znanixx.com/swipio/fi/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://znanixx.com/swipio/fr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://znanixx.com/swipio/ga/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://znanixx.com/swipio/hi/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://znanixx.com/swipio/it/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://znanixx.com/swipio/ja/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://znanixx.com/swipio/ko/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://znanixx.com/swipio/nl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://znanixx.com/swipio/no/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://znanixx.com/swipio/pl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://znanixx.com/swipio/pt/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://znanixx.com/swipio/ro/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://znanixx.com/swipio/sv/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://znanixx.com/swipio/tr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://znanixx.com/swipio/uk/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://znanixx.com/swipio/zh/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://znanixx.com/swipio/en/faq.html"/>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://znanixx.com/swipio/no/faq.html</loc>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://znanixx.com/swipio/cs/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://znanixx.com/swipio/da/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://znanixx.com/swipio/de/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://znanixx.com/swipio/en/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://znanixx.com/swipio/es/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://znanixx.com/swipio/fi/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://znanixx.com/swipio/fr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://znanixx.com/swipio/ga/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://znanixx.com/swipio/hi/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://znanixx.com/swipio/it/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://znanixx.com/swipio/ja/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://znanixx.com/swipio/ko/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://znanixx.com/swipio/nl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://znanixx.com/swipio/no/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://znanixx.com/swipio/pl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://znanixx.com/swipio/pt/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://znanixx.com/swipio/ro/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://znanixx.com/swipio/sv/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://znanixx.com/swipio/tr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://znanixx.com/swipio/uk/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://znanixx.com/swipio/zh/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://znanixx.com/swipio/en/faq.html"/>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://znanixx.com/swipio/pl/faq.html</loc>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://znanixx.com/swipio/cs/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://znanixx.com/swipio/da/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://znanixx.com/swipio/de/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://znanixx.com/swipio/en/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://znanixx.com/swipio/es/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://znanixx.com/swipio/fi/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://znanixx.com/swipio/fr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://znanixx.com/swipio/ga/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://znanixx.com/swipio/hi/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://znanixx.com/swipio/it/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://znanixx.com/swipio/ja/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://znanixx.com/swipio/ko/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://znanixx.com/swipio/nl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://znanixx.com/swipio/no/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://znanixx.com/swipio/pl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://znanixx.com/swipio/pt/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://znanixx.com/swipio/ro/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://znanixx.com/swipio/sv/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://znanixx.com/swipio/tr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://znanixx.com/swipio/uk/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://znanixx.com/swipio/zh/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://znanixx.com/swipio/en/faq.html"/>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://znanixx.com/swipio/pt/faq.html</loc>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://znanixx.com/swipio/cs/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://znanixx.com/swipio/da/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://znanixx.com/swipio/de/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://znanixx.com/swipio/en/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://znanixx.com/swipio/es/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://znanixx.com/swipio/fi/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://znanixx.com/swipio/fr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://znanixx.com/swipio/ga/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://znanixx.com/swipio/hi/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://znanixx.com/swipio/it/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://znanixx.com/swipio/ja/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://znanixx.com/swipio/ko/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://znanixx.com/swipio/nl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://znanixx.com/swipio/no/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://znanixx.com/swipio/pl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://znanixx.com/swipio/pt/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://znanixx.com/swipio/ro/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://znanixx.com/swipio/sv/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://znanixx.com/swipio/tr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://znanixx.com/swipio/uk/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://znanixx.com/swipio/zh/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://znanixx.com/swipio/en/faq.html"/>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://znanixx.com/swipio/ro/faq.html</loc>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://znanixx.com/swipio/cs/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://znanixx.com/swipio/da/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://znanixx.com/swipio/de/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://znanixx.com/swipio/en/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://znanixx.com/swipio/es/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://znanixx.com/swipio/fi/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://znanixx.com/swipio/fr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://znanixx.com/swipio/ga/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://znanixx.com/swipio/hi/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://znanixx.com/swipio/it/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://znanixx.com/swipio/ja/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://znanixx.com/swipio/ko/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://znanixx.com/swipio/nl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://znanixx.com/swipio/no/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://znanixx.com/swipio/pl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://znanixx.com/swipio/pt/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://znanixx.com/swipio/ro/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://znanixx.com/swipio/sv/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://znanixx.com/swipio/tr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://znanixx.com/swipio/uk/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://znanixx.com/swipio/zh/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://znanixx.com/swipio/en/faq.html"/>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://znanixx.com/swipio/sv/faq.html</loc>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://znanixx.com/swipio/cs/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://znanixx.com/swipio/da/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://znanixx.com/swipio/de/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://znanixx.com/swipio/en/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://znanixx.com/swipio/es/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://znanixx.com/swipio/fi/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://znanixx.com/swipio/fr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://znanixx.com/swipio/ga/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://znanixx.com/swipio/hi/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://znanixx.com/swipio/it/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://znanixx.com/swipio/ja/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://znanixx.com/swipio/ko/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://znanixx.com/swipio/nl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://znanixx.com/swipio/no/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://znanixx.com/swipio/pl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://znanixx.com/swipio/pt/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://znanixx.com/swipio/ro/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://znanixx.com/swipio/sv/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://znanixx.com/swipio/tr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://znanixx.com/swipio/uk/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://znanixx.com/swipio/zh/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://znanixx.com/swipio/en/faq.html"/>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://znanixx.com/swipio/tr/faq.html</loc>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://znanixx.com/swipio/cs/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://znanixx.com/swipio/da/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://znanixx.com/swipio/de/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://znanixx.com/swipio/en/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://znanixx.com/swipio/es/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://znanixx.com/swipio/fi/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://znanixx.com/swipio/fr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://znanixx.com/swipio/ga/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://znanixx.com/swipio/hi/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://znanixx.com/swipio/it/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://znanixx.com/swipio/ja/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://znanixx.com/swipio/ko/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://znanixx.com/swipio/nl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://znanixx.com/swipio/no/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://znanixx.com/swipio/pl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://znanixx.com/swipio/pt/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://znanixx.com/swipio/ro/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://znanixx.com/swipio/sv/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://znanixx.com/swipio/tr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://znanixx.com/swipio/uk/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://znanixx.com/swipio/zh/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://znanixx.com/swipio/en/faq.html"/>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://znanixx.com/swipio/uk/faq.html</loc>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://znanixx.com/swipio/cs/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://znanixx.com/swipio/da/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://znanixx.com/swipio/de/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://znanixx.com/swipio/en/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://znanixx.com/swipio/es/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://znanixx.com/swipio/fi/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://znanixx.com/swipio/fr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://znanixx.com/swipio/ga/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://znanixx.com/swipio/hi/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://znanixx.com/swipio/it/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://znanixx.com/swipio/ja/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://znanixx.com/swipio/ko/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://znanixx.com/swipio/nl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://znanixx.com/swipio/no/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://znanixx.com/swipio/pl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://znanixx.com/swipio/pt/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://znanixx.com/swipio/ro/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://znanixx.com/swipio/sv/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://znanixx.com/swipio/tr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://znanixx.com/swipio/uk/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://znanixx.com/swipio/zh/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://znanixx.com/swipio/en/faq.html"/>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://znanixx.com/swipio/zh/faq.html</loc>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://znanixx.com/swipio/cs/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://znanixx.com/swipio/da/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://znanixx.com/swipio/de/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://znanixx.com/swipio/en/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://znanixx.com/swipio/es/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://znanixx.com/swipio/fi/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://znanixx.com/swipio/fr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://znanixx.com/swipio/ga/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://znanixx.com/swipio/hi/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://znanixx.com/swipio/it/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://znanixx.com/swipio/ja/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://znanixx.com/swipio/ko/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://znanixx.com/swipio/nl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://znanixx.com/swipio/no/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://znanixx.com/swipio/pl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://znanixx.com/swipio/pt/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://znanixx.com/swipio/ro/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://znanixx.com/swipio/sv/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://znanixx.com/swipio/tr/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://znanixx.com/swipio/uk/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://znanixx.com/swipio/zh/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://znanixx.com/swipio/en/faq.html"/>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://znanixx.com/swipio/cs/support.html</loc>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://znanixx.com/swipio/cs/support.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://znanixx.com/swipio/da/support.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://znanixx.com/swipio/de/support.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://znanixx.com/swipio/en/support.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://znanixx.com/swipio/es/support.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://znanixx.com/swipio/fi/support.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://znanixx.com/swipio/fr/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://znanixx.com/swipio/ga/support.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://znanixx.com/swipio/hi/support.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://znanixx.com/swipio/it/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://znanixx.com/swipio/ja/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://znanixx.com/swipio/ko/support.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://znanixx.com/swipio/nl/support.html"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://znanixx.com/swipio/no/support.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://znanixx.com/swipio/pl/support.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://znanixx.com/swipio/pt/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://znanixx.com/swipio/ro/support.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://znanixx.com/swipio/sv/support.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://znanixx.com/swipio/tr/support.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://znanixx.com/swipio/uk/support.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://znanixx.com/swipio/zh/support.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://znanixx.com/swipio/en/support.html"/>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://znanixx.com/swipio/da/support.html</loc>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://znanixx.com/swipio/cs/support.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://znanixx.com/swipio/da/support.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://znanixx.com/swipio/de/support.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://znanixx.com/swipio/en/support.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://znanixx.com/swipio/es/support.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://znanixx.com/swipio/fi/support.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://znanixx.com/swipio/fr/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://znanixx.com/swipio/ga/support.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://znanixx.com/swipio/hi/support.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://znanixx.com/swipio/it/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://znanixx.com/swipio/ja/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://znanixx.com/swipio/ko/support.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://znanixx.com/swipio/nl/support.html"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://znanixx.com/swipio/no/support.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://znanixx.com/swipio/pl/support.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://znanixx.com/swipio/pt/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://znanixx.com/swipio/ro/support.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://znanixx.com/swipio/sv/support.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://znanixx.com/swipio/tr/support.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://znanixx.com/swipio/uk/support.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://znanixx.com/swipio/zh/support.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://znanixx.com/swipio/en/support.html"/>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://znanixx.com/swipio/de/support.html</loc>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://znanixx.com/swipio/cs/support.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://znanixx.com/swipio/da/support.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://znanixx.com/swipio/de/support.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://znanixx.com/swipio/en/support.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://znanixx.com/swipio/es/support.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://znanixx.com/swipio/fi/support.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://znanixx.com/swipio/fr/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://znanixx.com/swipio/ga/support.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://znanixx.com/swipio/hi/support.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://znanixx.com/swipio/it/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://znanixx.com/swipio/ja/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://znanixx.com/swipio/ko/support.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://znanixx.com/swipio/nl/support.html"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://znanixx.com/swipio/no/support.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://znanixx.com/swipio/pl/support.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://znanixx.com/swipio/pt/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://znanixx.com/swipio/ro/support.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://znanixx.com/swipio/sv/support.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://znanixx.com/swipio/tr/support.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://znanixx.com/swipio/uk/support.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://znanixx.com/swipio/zh/support.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://znanixx.com/swipio/en/support.html"/>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://znanixx.com/swipio/en/support.html</loc>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://znanixx.com/swipio/cs/support.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://znanixx.com/swipio/da/support.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://znanixx.com/swipio/de/support.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://znanixx.com/swipio/en/support.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://znanixx.com/swipio/es/support.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://znanixx.com/swipio/fi/support.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://znanixx.com/swipio/fr/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://znanixx.com/swipio/ga/support.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://znanixx.com/swipio/hi/support.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://znanixx.com/swipio/it/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://znanixx.com/swipio/ja/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://znanixx.com/swipio/ko/support.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://znanixx.com/swipio/nl/support.html"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://znanixx.com/swipio/no/support.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://znanixx.com/swipio/pl/support.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://znanixx.com/swipio/pt/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://znanixx.com/swipio/ro/support.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://znanixx.com/swipio/sv/support.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://znanixx.com/swipio/tr/support.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://znanixx.com/swipio/uk/support.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://znanixx.com/swipio/zh/support.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://znanixx.com/swipio/en/support.html"/>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://znanixx.com/swipio/es/support.html</loc>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://znanixx.com/swipio/cs/support.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://znanixx.com/swipio/da/support.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://znanixx.com/swipio/de/support.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://znanixx.com/swipio/en/support.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://znanixx.com/swipio/es/support.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://znanixx.com/swipio/fi/support.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://znanixx.com/swipio/fr/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://znanixx.com/swipio/ga/support.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://znanixx.com/swipio/hi/support.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://znanixx.com/swipio/it/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://znanixx.com/swipio/ja/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://znanixx.com/swipio/ko/support.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://znanixx.com/swipio/nl/support.html"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://znanixx.com/swipio/no/support.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://znanixx.com/swipio/pl/support.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://znanixx.com/swipio/pt/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://znanixx.com/swipio/ro/support.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://znanixx.com/swipio/sv/support.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://znanixx.com/swipio/tr/support.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://znanixx.com/swipio/uk/support.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://znanixx.com/swipio/zh/support.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://znanixx.com/swipio/en/support.html"/>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://znanixx.com/swipio/fi/support.html</loc>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://znanixx.com/swipio/cs/support.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://znanixx.com/swipio/da/support.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://znanixx.com/swipio/de/support.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://znanixx.com/swipio/en/support.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://znanixx.com/swipio/es/support.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://znanixx.com/swipio/fi/support.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://znanixx.com/swipio/fr/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://znanixx.com/swipio/ga/support.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://znanixx.com/swipio/hi/support.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://znanixx.com/swipio/it/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://znanixx.com/swipio/ja/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://znanixx.com/swipio/ko/support.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://znanixx.com/swipio/nl/support.html"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://znanixx.com/swipio/no/support.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://znanixx.com/swipio/pl/support.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://znanixx.com/swipio/pt/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://znanixx.com/swipio/ro/support.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://znanixx.com/swipio/sv/support.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://znanixx.com/swipio/tr/support.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://znanixx.com/swipio/uk/support.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://znanixx.com/swipio/zh/support.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://znanixx.com/swipio/en/support.html"/>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://znanixx.com/swipio/fr/support.html</loc>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://znanixx.com/swipio/cs/support.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://znanixx.com/swipio/da/support.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://znanixx.com/swipio/de/support.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://znanixx.com/swipio/en/support.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://znanixx.com/swipio/es/support.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://znanixx.com/swipio/fi/support.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://znanixx.com/swipio/fr/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://znanixx.com/swipio/ga/support.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://znanixx.com/swipio/hi/support.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://znanixx.com/swipio/it/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://znanixx.com/swipio/ja/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://znanixx.com/swipio/ko/support.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://znanixx.com/swipio/nl/support.html"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://znanixx.com/swipio/no/support.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://znanixx.com/swipio/pl/support.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://znanixx.com/swipio/pt/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://znanixx.com/swipio/ro/support.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://znanixx.com/swipio/sv/support.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://znanixx.com/swipio/tr/support.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://znanixx.com/swipio/uk/support.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://znanixx.com/swipio/zh/support.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://znanixx.com/swipio/en/support.html"/>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://znanixx.com/swipio/ga/support.html</loc>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://znanixx.com/swipio/cs/support.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://znanixx.com/swipio/da/support.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://znanixx.com/swipio/de/support.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://znanixx.com/swipio/en/support.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://znanixx.com/swipio/es/support.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://znanixx.com/swipio/fi/support.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://znanixx.com/swipio/fr/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://znanixx.com/swipio/ga/support.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://znanixx.com/swipio/hi/support.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://znanixx.com/swipio/it/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://znanixx.com/swipio/ja/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://znanixx.com/swipio/ko/support.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://znanixx.com/swipio/nl/support.html"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://znanixx.com/swipio/no/support.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://znanixx.com/swipio/pl/support.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://znanixx.com/swipio/pt/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://znanixx.com/swipio/ro/support.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://znanixx.com/swipio/sv/support.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://znanixx.com/swipio/tr/support.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://znanixx.com/swipio/uk/support.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://znanixx.com/swipio/zh/support.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://znanixx.com/swipio/en/support.html"/>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://znanixx.com/swipio/hi/support.html</loc>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://znanixx.com/swipio/cs/support.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://znanixx.com/swipio/da/support.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://znanixx.com/swipio/de/support.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://znanixx.com/swipio/en/support.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://znanixx.com/swipio/es/support.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://znanixx.com/swipio/fi/support.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://znanixx.com/swipio/fr/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://znanixx.com/swipio/ga/support.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://znanixx.com/swipio/hi/support.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://znanixx.com/swipio/it/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://znanixx.com/swipio/ja/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://znanixx.com/swipio/ko/support.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://znanixx.com/swipio/nl/support.html"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://znanixx.com/swipio/no/support.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://znanixx.com/swipio/pl/support.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://znanixx.com/swipio/pt/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://znanixx.com/swipio/ro/support.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://znanixx.com/swipio/sv/support.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://znanixx.com/swipio/tr/support.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://znanixx.com/swipio/uk/support.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://znanixx.com/swipio/zh/support.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://znanixx.com/swipio/en/support.html"/>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://znanixx.com/swipio/it/support.html</loc>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://znanixx.com/swipio/cs/support.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://znanixx.com/swipio/da/support.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://znanixx.com/swipio/de/support.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://znanixx.com/swipio/en/support.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://znanixx.com/swipio/es/support.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://znanixx.com/swipio/fi/support.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://znanixx.com/swipio/fr/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://znanixx.com/swipio/ga/support.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://znanixx.com/swipio/hi/support.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://znanixx.com/swipio/it/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://znanixx.com/swipio/ja/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://znanixx.com/swipio/ko/support.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://znanixx.com/swipio/nl/support.html"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://znanixx.com/swipio/no/support.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://znanixx.com/swipio/pl/support.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://znanixx.com/swipio/pt/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://znanixx.com/swipio/ro/support.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://znanixx.com/swipio/sv/support.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://znanixx.com/swipio/tr/support.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://znanixx.com/swipio/uk/support.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://znanixx.com/swipio/zh/support.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://znanixx.com/swipio/en/support.html"/>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://znanixx.com/swipio/ja/support.html</loc>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://znanixx.com/swipio/cs/support.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://znanixx.com/swipio/da/support.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://znanixx.com/swipio/de/support.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://znanixx.com/swipio/en/support.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://znanixx.com/swipio/es/support.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://znanixx.com/swipio/fi/support.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://znanixx.com/swipio/fr/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://znanixx.com/swipio/ga/support.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://znanixx.com/swipio/hi/support.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://znanixx.com/swipio/it/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://znanixx.com/swipio/ja/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://znanixx.com/swipio/ko/support.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://znanixx.com/swipio/nl/support.html"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://znanixx.com/swipio/no/support.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://znanixx.com/swipio/pl/support.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://znanixx.com/swipio/pt/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://znanixx.com/swipio/ro/support.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://znanixx.com/swipio/sv/support.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://znanixx.com/swipio/tr/support.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://znanixx.com/swipio/uk/support.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://znanixx.com/swipio/zh/support.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://znanixx.com/swipio/en/support.html"/>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://znanixx.com/swipio/ko/support.html</loc>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://znanixx.com/swipio/cs/support.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://znanixx.com/swipio/da/support.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://znanixx.com/swipio/de/support.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://znanixx.com/swipio/en/support.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://znanixx.com/swipio/es/support.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://znanixx.com/swipio/fi/support.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://znanixx.com/swipio/fr/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://znanixx.com/swipio/ga/support.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://znanixx.com/swipio/hi/support.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://znanixx.com/swipio/it/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://znanixx.com/swipio/ja/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://znanixx.com/swipio/ko/support.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://znanixx.com/swipio/nl/support.html"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://znanixx.com/swipio/no/support.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://znanixx.com/swipio/pl/support.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://znanixx.com/swipio/pt/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://znanixx.com/swipio/ro/support.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://znanixx.com/swipio/sv/support.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://znanixx.com/swipio/tr/support.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://znanixx.com/swipio/uk/support.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://znanixx.com/swipio/zh/support.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://znanixx.com/swipio/en/support.html"/>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://znanixx.com/swipio/nl/support.html</loc>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://znanixx.com/swipio/cs/support.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://znanixx.com/swipio/da/support.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://znanixx.com/swipio/de/support.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://znanixx.com/swipio/en/support.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://znanixx.com/swipio/es/support.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://znanixx.com/swipio/fi/support.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://znanixx.com/swipio/fr/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://znanixx.com/swipio/ga/support.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://znanixx.com/swipio/hi/support.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://znanixx.com/swipio/it/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://znanixx.com/swipio/ja/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://znanixx.com/swipio/ko/support.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://znanixx.com/swipio/nl/support.html"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://znanixx.com/swipio/no/support.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://znanixx.com/swipio/pl/support.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://znanixx.com/swipio/pt/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://znanixx.com/swipio/ro/support.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://znanixx.com/swipio/sv/support.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://znanixx.com/swipio/tr/support.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://znanixx.com/swipio/uk/support.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://znanixx.com/swipio/zh/support.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://znanixx.com/swipio/en/support.html"/>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://znanixx.com/swipio/no/support.html</loc>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://znanixx.com/swipio/cs/support.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://znanixx.com/swipio/da/support.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://znanixx.com/swipio/de/support.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://znanixx.com/swipio/en/support.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://znanixx.com/swipio/es/support.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://znanixx.com/swipio/fi/support.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://znanixx.com/swipio/fr/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://znanixx.com/swipio/ga/support.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://znanixx.com/swipio/hi/support.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://znanixx.com/swipio/it/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://znanixx.com/swipio/ja/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://znanixx.com/swipio/ko/support.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://znanixx.com/swipio/nl/support.html"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://znanixx.com/swipio/no/support.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://znanixx.com/swipio/pl/support.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://znanixx.com/swipio/pt/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://znanixx.com/swipio/ro/support.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://znanixx.com/swipio/sv/support.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://znanixx.com/swipio/tr/support.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://znanixx.com/swipio/uk/support.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://znanixx.com/swipio/zh/support.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://znanixx.com/swipio/en/support.html"/>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://znanixx.com/swipio/pl/support.html</loc>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://znanixx.com/swipio/cs/support.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://znanixx.com/swipio/da/support.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://znanixx.com/swipio/de/support.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://znanixx.com/swipio/en/support.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://znanixx.com/swipio/es/support.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://znanixx.com/swipio/fi/support.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://znanixx.com/swipio/fr/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://znanixx.com/swipio/ga/support.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://znanixx.com/swipio/hi/support.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://znanixx.com/swipio/it/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://znanixx.com/swipio/ja/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://znanixx.com/swipio/ko/support.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://znanixx.com/swipio/nl/support.html"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://znanixx.com/swipio/no/support.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://znanixx.com/swipio/pl/support.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://znanixx.com/swipio/pt/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://znanixx.com/swipio/ro/support.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://znanixx.com/swipio/sv/support.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://znanixx.com/swipio/tr/support.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://znanixx.com/swipio/uk/support.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://znanixx.com/swipio/zh/support.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://znanixx.com/swipio/en/support.html"/>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://znanixx.com/swipio/pt/support.html</loc>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://znanixx.com/swipio/cs/support.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://znanixx.com/swipio/da/support.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://znanixx.com/swipio/de/support.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://znanixx.com/swipio/en/support.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://znanixx.com/swipio/es/support.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://znanixx.com/swipio/fi/support.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://znanixx.com/swipio/fr/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://znanixx.com/swipio/ga/support.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://znanixx.com/swipio/hi/support.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://znanixx.com/swipio/it/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://znanixx.com/swipio/ja/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://znanixx.com/swipio/ko/support.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://znanixx.com/swipio/nl/support.html"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://znanixx.com/swipio/no/support.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://znanixx.com/swipio/pl/support.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://znanixx.com/swipio/pt/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://znanixx.com/swipio/ro/support.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://znanixx.com/swipio/sv/support.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://znanixx.com/swipio/tr/support.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://znanixx.com/swipio/uk/support.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://znanixx.com/swipio/zh/support.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://znanixx.com/swipio/en/support.html"/>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://znanixx.com/swipio/ro/support.html</loc>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://znanixx.com/swipio/cs/support.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://znanixx.com/swipio/da/support.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://znanixx.com/swipio/de/support.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://znanixx.com/swipio/en/support.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://znanixx.com/swipio/es/support.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://znanixx.com/swipio/fi/support.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://znanixx.com/swipio/fr/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://znanixx.com/swipio/ga/support.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://znanixx.com/swipio/hi/support.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://znanixx.com/swipio/it/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://znanixx.com/swipio/ja/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://znanixx.com/swipio/ko/support.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://znanixx.com/swipio/nl/support.html"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://znanixx.com/swipio/no/support.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://znanixx.com/swipio/pl/support.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://znanixx.com/swipio/pt/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://znanixx.com/swipio/ro/support.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://znanixx.com/swipio/sv/support.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://znanixx.com/swipio/tr/support.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://znanixx.com/swipio/uk/support.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://znanixx.com/swipio/zh/support.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://znanixx.com/swipio/en/support.html"/>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://znanixx.com/swipio/sv/support.html</loc>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://znanixx.com/swipio/cs/support.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://znanixx.com/swipio/da/support.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://znanixx.com/swipio/de/support.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://znanixx.com/swipio/en/support.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://znanixx.com/swipio/es/support.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://znanixx.com/swipio/fi/support.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://znanixx.com/swipio/fr/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://znanixx.com/swipio/ga/support.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://znanixx.com/swipio/hi/support.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://znanixx.com/swipio/it/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://znanixx.com/swipio/ja/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://znanixx.com/swipio/ko/support.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://znanixx.com/swipio/nl/support.html"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://znanixx.com/swipio/no/support.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://znanixx.com/swipio/pl/support.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://znanixx.com/swipio/pt/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://znanixx.com/swipio/ro/support.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://znanixx.com/swipio/sv/support.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://znanixx.com/swipio/tr/support.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://znanixx.com/swipio/uk/support.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://znanixx.com/swipio/zh/support.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://znanixx.com/swipio/en/support.html"/>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://znanixx.com/swipio/tr/support.html</loc>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://znanixx.com/swipio/cs/support.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://znanixx.com/swipio/da/support.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://znanixx.com/swipio/de/support.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://znanixx.com/swipio/en/support.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://znanixx.com/swipio/es/support.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://znanixx.com/swipio/fi/support.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://znanixx.com/swipio/fr/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://znanixx.com/swipio/ga/support.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://znanixx.com/swipio/hi/support.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://znanixx.com/swipio/it/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://znanixx.com/swipio/ja/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://znanixx.com/swipio/ko/support.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://znanixx.com/swipio/nl/support.html"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://znanixx.com/swipio/no/support.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://znanixx.com/swipio/pl/support.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://znanixx.com/swipio/pt/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://znanixx.com/swipio/ro/support.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://znanixx.com/swipio/sv/support.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://znanixx.com/swipio/tr/support.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://znanixx.com/swipio/uk/support.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://znanixx.com/swipio/zh/support.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://znanixx.com/swipio/en/support.html"/>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://znanixx.com/swipio/uk/support.html</loc>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://znanixx.com/swipio/cs/support.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://znanixx.com/swipio/da/support.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://znanixx.com/swipio/de/support.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://znanixx.com/swipio/en/support.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://znanixx.com/swipio/es/support.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://znanixx.com/swipio/fi/support.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://znanixx.com/swipio/fr/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://znanixx.com/swipio/ga/support.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://znanixx.com/swipio/hi/support.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://znanixx.com/swipio/it/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://znanixx.com/swipio/ja/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://znanixx.com/swipio/ko/support.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://znanixx.com/swipio/nl/support.html"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://znanixx.com/swipio/no/support.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://znanixx.com/swipio/pl/support.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://znanixx.com/swipio/pt/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://znanixx.com/swipio/ro/support.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://znanixx.com/swipio/sv/support.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://znanixx.com/swipio/tr/support.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://znanixx.com/swipio/uk/support.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://znanixx.com/swipio/zh/support.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://znanixx.com/swipio/en/support.html"/>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://znanixx.com/swipio/zh/support.html</loc>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://znanixx.com/swipio/cs/support.html"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://znanixx.com/swipio/da/support.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://znanixx.com/swipio/de/support.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://znanixx.com/swipio/en/support.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://znanixx.com/swipio/es/support.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://znanixx.com/swipio/fi/support.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://znanixx.com/swipio/fr/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://znanixx.com/swipio/ga/support.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://znanixx.com/swipio/hi/support.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://znanixx.com/swipio/it/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://znanixx.com/swipio/ja/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://znanixx.com/swipio/ko/support.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://znanixx.com/swipio/nl/support.html"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://znanixx.com/swipio/no/support.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://znanixx.com/swipio/pl/support.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://znanixx.com/swipio/pt/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://znanixx.com/swipio/ro/support.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://znanixx.com/swipio/sv/support.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://znanixx.com/swipio/tr/support.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://znanixx.com/swipio/uk/support.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://znanixx.com/swipio/zh/support.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://znanixx.com/swipio/en/support.html"/>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
 </urlset>

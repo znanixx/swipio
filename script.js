@@ -163,12 +163,7 @@
       docLinks.forEach((a) => {
         const doc = a.getAttribute('data-doc');
         if (doc && DOCS[doc]) {
-          // Use absolute paths to language folders inside /swipio/
-          if (doc === 'faq') {
-            a.href = `/swipio/en/${DOCS[doc]}`; // FAQ only in English
-          } else {
-            a.href = `/swipio/${langCode}/${DOCS[doc]}`;
-          }
+          a.href = `/swipio/${langCode}/${DOCS[doc]}`;
         }
       });
     }
@@ -195,7 +190,7 @@
 
     function navigateToLang(lang) {
       const langCode = effectiveLang(lang);
-      window.location.href = `/swipio/${langCode}/`;
+      window.location.href = langCode === 'en' ? '/' : `/swipio/${langCode}/`;
     }
 
     function openDropdown() {
@@ -233,9 +228,15 @@
     const current = getLang();
     if (!safeStorageGet(STORAGE_KEY_LANG)) setLang(current);
 
-    // When on root (not already in a language page), switch to the detected/stored language
+    // On root: redirect only non-English visitors; English stays on canonical home
     if (!inLangFolder) {
-      navigateToLang(current);
+      if (current !== 'en') {
+        navigateToLang(current);
+        return;
+      }
+      if (document.documentElement) document.documentElement.lang = 'en';
+      setTrigger('en');
+      updateDocLinks('en');
       return;
     }
 

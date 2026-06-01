@@ -1,0 +1,41 @@
+# Swipio
+
+> Swipio helps you learn vocabulary faster with swipe-based flashcards and spaced repetition. Available on iOS and Android.
+
+## Primary links
+
+- Home (English): https://znanixx.com/
+- Apple App Store: https://apps.apple.com/app/id6759218522
+- Google Play: https://play.google.com/store/apps/details?id=com.mykhailiuk_v.swipio
+- Support email: support@znanixx.com
+- Sitemap: https://znanixx.com/sitemap.xml
+
+## Legal (noindex — not intended for search indexing)
+
+- Privacy policy and Terms of Service exist per language under `/swipio/{lang}/privacy.html` and `/swipio/{lang}/tos.html`.
+
+## Pages by language
+
+| Lang | Home | FAQ | Support |
+|------|------|-----|---------|
+| cs | https://znanixx.com/swipio/cs/ | https://znanixx.com/swipio/cs/faq.html | https://znanixx.com/swipio/cs/support.html |
+| da | https://znanixx.com/swipio/da/ | https://znanixx.com/swipio/da/faq.html | https://znanixx.com/swipio/da/support.html |
+| de | https://znanixx.com/swipio/de/ | https://znanixx.com/swipio/de/faq.html | https://znanixx.com/swipio/de/support.html |
+| en | https://znanixx.com/ | https://znanixx.com/swipio/en/faq.html | https://znanixx.com/swipio/en/support.html |
+| es | https://znanixx.com/swipio/es/ | https://znanixx.com/swipio/es/faq.html | https://znanixx.com/swipio/es/support.html |
+| fi | https://znanixx.com/swipio/fi/ | https://znanixx.com/swipio/fi/faq.html | https://znanixx.com/swipio/fi/support.html |
+| fr | https://znanixx.com/swipio/fr/ | https://znanixx.com/swipio/fr/faq.html | https://znanixx.com/swipio/fr/support.html |
+| ga | https://znanixx.com/swipio/ga/ | https://znanixx.com/swipio/ga/faq.html | https://znanixx.com/swipio/ga/support.html |
+| hi | https://znanixx.com/swipio/hi/ | https://znanixx.com/swipio/hi/faq.html | https://znanixx.com/swipio/hi/support.html |
+| it | https://znanixx.com/swipio/it/ | https://znanixx.com/swipio/it/faq.html | https://znanixx.com/swipio/it/support.html |
+| ja | https://znanixx.com/swipio/ja/ | https://znanixx.com/swipio/ja/faq.html | https://znanixx.com/swipio/ja/support.html |
+| ko | https://znanixx.com/swipio/ko/ | https://znanixx.com/swipio/ko/faq.html | https://znanixx.com/swipio/ko/support.html |
+| nl | https://znanixx.com/swipio/nl/ | https://znanixx.com/swipio/nl/faq.html | https://znanixx.com/swipio/nl/support.html |
+| no | https://znanixx.com/swipio/no/ | https://znanixx.com/swipio/no/faq.html | https://znanixx.com/swipio/no/support.html |
+| pl | https://znanixx.com/swipio/pl/ | https://znanixx.com/swipio/pl/faq.html | https://znanixx.com/swipio/pl/support.html |
+| pt | https://znanixx.com/swipio/pt/ | https://znanixx.com/swipio/pt/faq.html | https://znanixx.com/swipio/pt/support.html |
+| ro | https://znanixx.com/swipio/ro/ | https://znanixx.com/swipio/ro/faq.html | https://znanixx.com/swipio/ro/support.html |
+| sv | https://znanixx.com/swipio/sv/ | https://znanixx.com/swipio/sv/faq.html | https://znanixx.com/swipio/sv/support.html |
+| tr | https://znanixx.com/swipio/tr/ | https://znanixx.com/swipio/tr/faq.html | https://znanixx.com/swipio/tr/support.html |
+| uk | https://znanixx.com/swipio/uk/ | https://znanixx.com/swipio/uk/faq.html | https://znanixx.com/swipio/uk/support.html |
+| zh | https://znanixx.com/swipio/zh/ | https://znanixx.com/swipio/zh/faq.html | https://znanixx.com/swipio/zh/support.html |
