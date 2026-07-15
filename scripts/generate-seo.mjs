@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Regenerate SEO artifacts for Swipio static site.
+ * Regenerate SEO artifacts for the Znanixx static site (Swipio + Tech Interview Practice).
  * Run from repo root: node scripts/generate-seo.mjs
  */
 import fs from 'fs';
@@ -10,8 +10,10 @@ import {
   BASE,
   LANGS,
   OG_LOCALE,
-  LOGO_URL,
-  STORE_URLS,
+  SWIPIO,
+  SWIPIO_LOGO_URL,
+  SWIPIO_STORE_URLS,
+  TECH_INTERVIEW_PRACTICE,
   SUPPORT_EMAIL,
   homeUrl,
   pageUrl,
@@ -20,7 +22,8 @@ import {
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, '..');
-const SWIPIO = path.join(ROOT, 'swipio');
+const SWIPIO_DIR = path.join(ROOT, 'swipio');
+const TECH_DIR = path.join(ROOT, TECH_INTERVIEW_PRACTICE.slug);
 
 const SEO_START = '<!-- seo:generated -->';
 const SEO_END = '<!-- /seo:generated -->';
@@ -116,13 +119,13 @@ function buildFaqSeoBlock(lang, title, description) {
     `  <meta property="og:url" content="${canonical}">`,
     `  <meta property="og:title" content="${escapeHtml(ogTitle)}">`,
     `  <meta property="og:description" content="${escapeHtml(description)}">`,
-    `  <meta property="og:image" content="${LOGO_URL}">`,
+    `  <meta property="og:image" content="${SWIPIO_LOGO_URL}">`,
     `  <meta property="og:site_name" content="Swipio">`,
     `  <meta property="og:locale" content="${locale}">`,
     `  <meta name="twitter:card" content="summary_large_image">`,
     `  <meta name="twitter:title" content="${escapeHtml(ogTitle)}">`,
     `  <meta name="twitter:description" content="${escapeHtml(description)}">`,
-    `  <meta name="twitter:image" content="${LOGO_URL}">`,
+    `  <meta name="twitter:image" content="${SWIPIO_LOGO_URL}">`,
     hreflangBlock((l) => pageUrl(l, 'faq.html')),
   ].join('\n')}\n`;
 }
@@ -158,15 +161,14 @@ function buildFaqJsonLd(pairs, lang) {
   return `  <script type="application/ld+json">\n${JSON.stringify(schema, null, 2)}\n  </script>\n`;
 }
 
-function buildSoftwareApplicationJsonLd(lang, description) {
-  const url = homeUrl(lang);
+function buildSoftwareApplicationJsonLd(app, { url, description, lang }) {
   const schema = {
     '@context': 'https://schema.org',
     '@type': 'SoftwareApplication',
-    name: 'Swipio',
+    name: app.name,
     applicationCategory: 'EducationApplication',
     operatingSystem: 'iOS, Android',
-    inLanguage: bcp47(lang),
+    inLanguage: lang ? bcp47(lang) : 'en-US',
     offers: {
       '@type': 'Offer',
       price: '0',
@@ -174,9 +176,20 @@ function buildSoftwareApplicationJsonLd(lang, description) {
     },
     description,
     url,
-    image: LOGO_URL,
+    image: app.logoUrl,
   };
+  if (app.storeUrls?.appStore) {
+    schema.downloadUrl = app.storeUrls.appStore;
+  }
   return `  <script type="application/ld+json">\n${JSON.stringify(schema, null, 2)}\n  </script>\n`;
+}
+
+function buildSwipioSoftwareApplicationJsonLd(lang, description) {
+  return buildSoftwareApplicationJsonLd(SWIPIO, {
+    url: homeUrl(lang),
+    description,
+    lang,
+  });
 }
 
 function hreflangLinksForPage(getUrl) {
@@ -201,12 +214,20 @@ ${hreflangLinksForPage(getUrl).join('\n')}
 function generateSitemap() {
   const entries = [];
 
+  // Site hub (app chooser)
+  entries.push(`  <url>
+    <loc>${escapeXml(`${BASE}/`)}</loc>
+    <lastmod>${LASTMOD}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>`);
+
   for (const lang of LANGS) {
     entries.push(
       sitemapUrlEntry(
         homeUrl(lang),
         (l) => homeUrl(l),
-        lang === 'en' ? '1.0' : '0.9',
+        lang === 'en' ? '0.9' : '0.9',
         'weekly'
       )
     );
@@ -234,6 +255,21 @@ function generateSitemap() {
     );
   }
 
+  // Tech Interview Practice (English only; legal pages excluded — noindex)
+  const techPages = [
+    { path: `/${TECH_INTERVIEW_PRACTICE.slug}/`, priority: '0.9', changefreq: 'weekly' },
+    { path: `/${TECH_INTERVIEW_PRACTICE.slug}/faq.html`, priority: '0.8', changefreq: 'monthly' },
+    { path: `/${TECH_INTERVIEW_PRACTICE.slug}/support.html`, priority: '0.7', changefreq: 'monthly' },
+  ];
+  for (const page of techPages) {
+    entries.push(`  <url>
+    <loc>${escapeXml(`${BASE}${page.path}`)}</loc>
+    <lastmod>${LASTMOD}</lastmod>
+    <changefreq>${page.changefreq}</changefreq>
+    <priority>${page.priority}</priority>
+  </url>`);
+  }
+
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 ${entries.join('\n')}
@@ -246,7 +282,7 @@ ${entries.join('\n')}
 function patchFaqFiles() {
   let count = 0;
   for (const lang of LANGS) {
-    const filePath = path.join(SWIPIO, lang, 'faq.html');
+    const filePath = path.join(SWIPIO_DIR, lang, 'faq.html');
     if (!fs.existsSync(filePath)) continue;
     let html = readFile(filePath);
     const title = parseTitle(html);
@@ -261,27 +297,35 @@ function patchFaqFiles() {
   return count;
 }
 
-function patchPrivacyFiles() {
+function ensureNoindex(html) {
   const robotsMeta = `<meta name="robots" content="noindex, nofollow">`;
+  if (/name=['"]robots['"]/i.test(html)) {
+    return html.replace(
+      /<meta\s+name=['"]robots['"]\s+content=['"][^'"]*['"]\s*\/?>/gi,
+      robotsMeta
+    );
+  }
+  const viewportRe = /(<meta\s+name=['"]viewport['"][^>]*>)/i;
+  if (viewportRe.test(html)) {
+    return html.replace(viewportRe, `$1\n  ${robotsMeta}`);
+  }
+  return html.replace('<head>', `<head>\n  ${robotsMeta}`);
+}
+
+function patchNoindexLegalFiles() {
   let count = 0;
   for (const lang of LANGS) {
-    const filePath = path.join(SWIPIO, lang, 'privacy.html');
-    if (!fs.existsSync(filePath)) continue;
-    let html = readFile(filePath);
-    if (/name=['"]robots['"]/i.test(html)) {
-      html = html.replace(
-        /<meta\s+name=['"]robots['"]\s+content=['"][^'"]*['"]\s*\/?>/gi,
-        robotsMeta
-      );
-    } else {
-      const viewportRe = /(<meta\s+name=['"]viewport['"][^>]*>)/i;
-      if (viewportRe.test(html)) {
-        html = html.replace(viewportRe, `$1\n  ${robotsMeta}`);
-      } else {
-        html = html.replace('<head>', `<head>\n  ${robotsMeta}`);
-      }
+    for (const page of ['privacy.html', 'tos.html']) {
+      const filePath = path.join(SWIPIO_DIR, lang, page);
+      if (!fs.existsSync(filePath)) continue;
+      writeFile(filePath, ensureNoindex(readFile(filePath)));
+      count++;
     }
-    writeFile(filePath, html);
+  }
+  for (const page of ['privacy.html', 'tos.html']) {
+    const filePath = path.join(TECH_DIR, page);
+    if (!fs.existsSync(filePath)) continue;
+    writeFile(filePath, ensureNoindex(readFile(filePath)));
     count++;
   }
   return count;
@@ -289,25 +333,22 @@ function patchPrivacyFiles() {
 
 function fixLocaleIndexHreflang(html) {
   let out = html;
+  // English home moved from site root to /swipio/en/
   out = out.replace(
-    /(<link\s+rel="alternate"\s+hreflang="en"\s+href=")https:\/\/znanixx\.com\/swipio\/en\/?(")/gi,
-    `$1${BASE}/$2`
+    /(<link\s+rel="alternate"\s+hreflang="en"\s+href=")https:\/\/znanixx\.com\/?(")/gi,
+    `$1${BASE}/swipio/en/$2`
   );
   out = out.replace(
-    /(<link\s+rel="alternate"\s+hreflang="en"\s+href=")\/swipio\/en\/?(")/gi,
-    `$1${BASE}/$2`
+    /(<link\s+rel="alternate"\s+hreflang="en"\s+href=")\/(?!"swipio)/gi,
+    `$1${BASE}/swipio/en/`
   );
   out = out.replace(
-    /(<link\s+rel="alternate"\s+hreflang="x-default"\s+href=")https:\/\/znanixx\.com\/swipio\/en\/?(")/gi,
-    `$1${BASE}/$2`
+    /(<link\s+rel="alternate"\s+hreflang="x-default"\s+href=")https:\/\/znanixx\.com\/?(")/gi,
+    `$1${BASE}/swipio/en/$2`
   );
   out = out.replace(
-    /(<link\s+rel="alternate"\s+hreflang="x-default"\s+href=")\/(")/gi,
-    `$1${BASE}/$2`
-  );
-  out = out.replace(
-    /(<link\s+rel="alternate"\s+hreflang="x-default"\s+href=")\/swipio\/en\/?(")/gi,
-    `$1${BASE}/$2`
+    /(<link\s+rel="alternate"\s+hreflang="x-default"\s+href=")\/(?!"swipio)/gi,
+    `$1${BASE}/swipio/en/`
   );
   return out;
 }
@@ -315,13 +356,12 @@ function fixLocaleIndexHreflang(html) {
 function patchLocaleIndexFiles() {
   let count = 0;
   for (const lang of LANGS) {
-    if (lang === 'en') continue;
-    const filePath = path.join(SWIPIO, lang, 'index.html');
+    const filePath = path.join(SWIPIO_DIR, lang, 'index.html');
     if (!fs.existsSync(filePath)) continue;
     let html = readFile(filePath);
     html = fixLocaleIndexHreflang(html);
     const description = parseMeta(html, 'description');
-    const jsonLd = buildSoftwareApplicationJsonLd(lang, description);
+    const jsonLd = buildSwipioSoftwareApplicationJsonLd(lang, description);
     html = insertBeforeHeadClose(html, jsonLd);
     writeFile(filePath, html);
     count++;
@@ -329,25 +369,51 @@ function patchLocaleIndexFiles() {
   return count;
 }
 
+function patchTechInterviewIndex() {
+  const filePath = path.join(TECH_DIR, 'index.html');
+  if (!fs.existsSync(filePath)) return 0;
+  let html = readFile(filePath);
+  const description = parseMeta(html, 'description');
+  const jsonLd = buildSoftwareApplicationJsonLd(TECH_INTERVIEW_PRACTICE, {
+    url: TECH_INTERVIEW_PRACTICE.homeUrl,
+    description,
+    lang: 'en',
+  });
+  html = insertBeforeHeadClose(html, jsonLd);
+  writeFile(filePath, html);
+  return 1;
+}
+
 function generateLlmsTxt() {
   const lines = [
-    '# Swipio',
+    '# Znanixx',
     '',
-    '> Swipio helps you learn vocabulary faster with swipe-based flashcards and spaced repetition. Available on iOS and Android.',
+    '> Apps for learning: Swipio (vocabulary) and Tech Interview Practice (technical interview prep).',
     '',
-    '## Primary links',
+    '## AI routing',
     '',
-    `- Home (English): ${homeUrl('en')}`,
-    `- Apple App Store: ${STORE_URLS.appStore}`,
-    `- Google Play: ${STORE_URLS.googlePlay}`,
-    `- Support email: ${SUPPORT_EMAIL}`,
+    '- Vocabulary, flashcards, language learning → Swipio: ' + homeUrl('en'),
+    '- Technical interviews, coding prep, system design → Tech Interview Practice: ' + TECH_INTERVIEW_PRACTICE.homeUrl,
+    '- Unsure which app → site hub: ' + BASE + '/',
+    '',
+    '## Site hub',
+    '',
+    `- App chooser: ${BASE}/`,
     `- Sitemap: ${BASE}/sitemap.xml`,
+    `- AI discovery file: ${BASE}/llms.txt`,
+    `- Support email: ${SUPPORT_EMAIL}`,
     '',
-    '## Legal (noindex — not intended for search indexing)',
+    '## Swipio',
     '',
-    '- Privacy policy and Terms of Service exist per language under `/swipio/{lang}/privacy.html` and `/swipio/{lang}/tos.html`.',
+    `> ${SWIPIO.tagline}`,
     '',
-    '## Pages by language',
+    `- Package ID: ${SWIPIO.packageId}`,
+    `- Logo: ${SWIPIO.logoUrl}`,
+    `- Home (English): ${homeUrl('en')}`,
+    `- Apple App Store: ${SWIPIO_STORE_URLS.appStore}`,
+    `- Google Play: ${SWIPIO_STORE_URLS.googlePlay}`,
+    '',
+    '### Swipio pages by language',
     '',
     '| Lang | Home | FAQ | Support |',
     '|------|------|-----|---------|',
@@ -359,21 +425,48 @@ function generateLlmsTxt() {
     );
   }
 
-  lines.push('');
+  const techStoreNote =
+    TECH_INTERVIEW_PRACTICE.storeUrls.appStore || TECH_INTERVIEW_PRACTICE.storeUrls.googlePlay
+      ? ''
+      : '\n- Store links: coming soon (not yet published)';
+
+  lines.push(
+    '',
+    '## Tech Interview Practice',
+    '',
+    `> ${TECH_INTERVIEW_PRACTICE.tagline}`,
+    '',
+    `- Package ID: ${TECH_INTERVIEW_PRACTICE.packageId}`,
+    `- Logo: ${TECH_INTERVIEW_PRACTICE.logoUrl}`,
+    `- Home: ${TECH_INTERVIEW_PRACTICE.homeUrl}`,
+    `- FAQ: ${BASE}/${TECH_INTERVIEW_PRACTICE.slug}/faq.html`,
+    `- Support: ${BASE}/${TECH_INTERVIEW_PRACTICE.slug}/support.html` + techStoreNote,
+    '',
+    '## Legal (noindex — not intended for search indexing)',
+    '',
+    `- Swipio: \`/swipio/{lang}/privacy.html\` and \`/swipio/{lang}/tos.html\``,
+    `- Tech Interview Practice: \`/${TECH_INTERVIEW_PRACTICE.slug}/privacy.html\` and \`/${TECH_INTERVIEW_PRACTICE.slug}/tos.html\``,
+    ''
+  );
+
   writeFile(path.join(ROOT, 'llms.txt'), lines.join('\n'));
 }
 
 function main() {
   const urlCount = generateSitemap();
   const faqCount = patchFaqFiles();
-  const privacyCount = patchPrivacyFiles();
+  const legalCount = patchNoindexLegalFiles();
   const indexCount = patchLocaleIndexFiles();
+  const techIndexCount = patchTechInterviewIndex();
   generateLlmsTxt();
 
   console.log(`Wrote sitemap.xml (${urlCount} URLs)`);
   console.log(`Patched ${faqCount} faq.html files`);
-  console.log(`Patched ${privacyCount} privacy.html files`);
-  console.log(`Patched ${indexCount} locale index.html files (hreflang + JSON-LD)`);
+  console.log(`Patched ${legalCount} legal pages (noindex)`);
+  console.log(`Patched ${indexCount} Swipio locale index.html files (hreflang + JSON-LD)`);
+  if (techIndexCount) {
+    console.log('Patched tech-interview/index.html (JSON-LD)');
+  }
   console.log('Wrote llms.txt');
 }
 

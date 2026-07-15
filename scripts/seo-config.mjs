@@ -2,6 +2,8 @@
 
 export const BASE = 'https://znanixx.com';
 
+export const SUPPORT_EMAIL = 'support@znanixx.com';
+
 export const LANGS = [
   'cs', 'da', 'de', 'en', 'es', 'fi', 'fr', 'ga', 'hi', 'it', 'ja', 'ko',
   'nl', 'no', 'pl', 'pt', 'ro', 'sv', 'tr', 'uk', 'zh',
@@ -31,18 +33,48 @@ export const OG_LOCALE = {
   zh: 'zh_CN',
 };
 
-export const STORE_URLS = {
+export const SWIPIO_STORE_URLS = {
   appStore: 'https://apps.apple.com/app/id6759218522',
   googlePlay: 'https://play.google.com/store/apps/details?id=com.mykhailiuk_v.swipio',
 };
 
-export const SUPPORT_EMAIL = 'support@znanixx.com';
+/** @deprecated Use SWIPIO_STORE_URLS */
+export const STORE_URLS = SWIPIO_STORE_URLS;
 
-export const LOGO_URL = `${BASE}/assets/logo.png`;
+export const SWIPIO_LOGO_URL = `${BASE}/assets/logo.png`;
 
-/** Canonical home path (trailing slash). English lives at site root. */
+/** @deprecated Use SWIPIO_LOGO_URL */
+export const LOGO_URL = SWIPIO_LOGO_URL;
+
+export const SWIPIO = {
+  name: 'Swipio',
+  slug: 'swipio',
+  packageId: 'com.mykhailiuk_v.swipio',
+  logoUrl: SWIPIO_LOGO_URL,
+  ogImageUrl: SWIPIO_LOGO_URL,
+  storeUrls: SWIPIO_STORE_URLS,
+  tagline:
+    'Swipio helps you learn vocabulary faster with swipe-based flashcards and spaced repetition. Available on iOS and Android.',
+};
+
+export const TECH_INTERVIEW_PRACTICE = {
+  name: 'Tech Interview Practice',
+  slug: 'tech-interview',
+  packageId: 'com.techinterviewpractice.app',
+  logoUrl: `${BASE}/tech-interview/assets/logo.png`,
+  ogImageUrl: `${BASE}/tech-interview/assets/screenshots/home.png`,
+  homeUrl: `${BASE}/tech-interview/`,
+  storeUrls: {
+    appStore: null,
+    googlePlay: null,
+  },
+  tagline:
+    'Master 13,000+ technical interview questions across 170+ topics with spaced repetition, code snippets, and progress analytics.',
+};
+
+/** Canonical home path (trailing slash). */
 export function homePath(lang) {
-  return lang === 'en' ? '/' : `/swipio/${lang}/`;
+  return `/swipio/${lang}/`;
 }
 
 export function homeUrl(lang) {

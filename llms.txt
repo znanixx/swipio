@@ -1,27 +1,38 @@
-# Swipio
+# Znanixx
+
+> Apps for learning: Swipio (vocabulary) and Tech Interview Practice (technical interview prep).
+
+## AI routing
+
+- Vocabulary, flashcards, language learning → Swipio: https://znanixx.com/swipio/en/
+- Technical interviews, coding prep, system design → Tech Interview Practice: https://znanixx.com/tech-interview/
+- Unsure which app → site hub: https://znanixx.com/
+
+## Site hub
+
+- App chooser: https://znanixx.com/
+- Sitemap: https://znanixx.com/sitemap.xml
+- AI discovery file: https://znanixx.com/llms.txt
+- Support email: support@znanixx.com
+
+## Swipio
 
 > Swipio helps you learn vocabulary faster with swipe-based flashcards and spaced repetition. Available on iOS and Android.
 
-## Primary links
-
-- Home (English): https://znanixx.com/
+- Package ID: com.mykhailiuk_v.swipio
+- Logo: https://znanixx.com/assets/logo.png
+- Home (English): https://znanixx.com/swipio/en/
 - Apple App Store: https://apps.apple.com/app/id6759218522
 - Google Play: https://play.google.com/store/apps/details?id=com.mykhailiuk_v.swipio
-- Support email: support@znanixx.com
-- Sitemap: https://znanixx.com/sitemap.xml
 
-## Legal (noindex — not intended for search indexing)
-
-- Privacy policy and Terms of Service exist per language under `/swipio/{lang}/privacy.html` and `/swipio/{lang}/tos.html`.
-
-## Pages by language
+### Swipio pages by language
 
 | Lang | Home | FAQ | Support |
 |------|------|-----|---------|
 | cs | https://znanixx.com/swipio/cs/ | https://znanixx.com/swipio/cs/faq.html | https://znanixx.com/swipio/cs/support.html |
 | da | https://znanixx.com/swipio/da/ | https://znanixx.com/swipio/da/faq.html | https://znanixx.com/swipio/da/support.html |
 | de | https://znanixx.com/swipio/de/ | https://znanixx.com/swipio/de/faq.html | https://znanixx.com/swipio/de/support.html |
-| en | https://znanixx.com/ | https://znanixx.com/swipio/en/faq.html | https://znanixx.com/swipio/en/support.html |
+| en | https://znanixx.com/swipio/en/ | https://znanixx.com/swipio/en/faq.html | https://znanixx.com/swipio/en/support.html |
 | es | https://znanixx.com/swipio/es/ | https://znanixx.com/swipio/es/faq.html | https://znanixx.com/swipio/es/support.html |
 | fi | https://znanixx.com/swipio/fi/ | https://znanixx.com/swipio/fi/faq.html | https://znanixx.com/swipio/fi/support.html |
 | fr | https://znanixx.com/swipio/fr/ | https://znanixx.com/swipio/fr/faq.html | https://znanixx.com/swipio/fr/support.html |
@@ -39,3 +50,19 @@
 | tr | https://znanixx.com/swipio/tr/ | https://znanixx.com/swipio/tr/faq.html | https://znanixx.com/swipio/tr/support.html |
 | uk | https://znanixx.com/swipio/uk/ | https://znanixx.com/swipio/uk/faq.html | https://znanixx.com/swipio/uk/support.html |
 | zh | https://znanixx.com/swipio/zh/ | https://znanixx.com/swipio/zh/faq.html | https://znanixx.com/swipio/zh/support.html |
+
+## Tech Interview Practice
+
+> Master 13,000+ technical interview questions across 170+ topics with spaced repetition, code snippets, and progress analytics.
+
+- Package ID: com.techinterviewpractice.app
+- Logo: https://znanixx.com/tech-interview/assets/logo.png
+- Home: https://znanixx.com/tech-interview/
+- FAQ: https://znanixx.com/tech-interview/faq.html
+- Support: https://znanixx.com/tech-interview/support.html
+- Store links: coming soon (not yet published)
+
+## Legal (noindex — not intended for search indexing)
+
+- Swipio: `/swipio/{lang}/privacy.html` and `/swipio/{lang}/tos.html`
+- Tech Interview Practice: `/tech-interview/privacy.html` and `/tech-interview/tos.html`

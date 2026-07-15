@@ -3,3 +3,4 @@ Allow: /
 
 Sitemap: https://znanixx.com/sitemap.xml
 # AI discovery: https://znanixx.com/llms.txt
+# Apps: Swipio (/swipio/) · Tech Interview Practice (/tech-interview/)

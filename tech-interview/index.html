@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en" class="cyber-green">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tech Interview Practice - Ace Your Next Interview | znanixx.com</title>
+  <meta name="description" content="Master 13,000+ technical interview questions across 170+ topics. Spaced repetition, code snippets, streaks, and progress analytics. Download for iOS and Android.">
+  <link rel="canonical" href="https://znanixx.com/tech-interview/">
+  <link rel="icon" type="image/png" sizes="48x48" href="/tech-interview/assets/favicon.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/tech-interview/assets/apple-touch-icon.png">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://znanixx.com/tech-interview/">
+  <meta property="og:title" content="Tech Interview Practice - Ace Your Next Interview">
+  <meta property="og:description" content="Master 13,000+ technical interview questions across 170+ topics. Spaced repetition, code snippets, streaks, and progress analytics.">
+  <meta property="og:image" content="https://znanixx.com/tech-interview/assets/screenshots/home.png">
+  <meta property="og:site_name" content="Tech Interview Practice">
+  <meta property="og:locale" content="en_US">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Tech Interview Practice - Ace Your Next Interview">
+  <meta name="twitter:description" content="Master 13,000+ technical interview questions across 170+ topics. Spaced repetition, code snippets, streaks, and progress analytics.">
+  <meta name="twitter:image" content="https://znanixx.com/tech-interview/assets/screenshots/home.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <meta name="theme-color" content="#0c0d0f">
+
+  <!-- seo:generated -->
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Tech Interview Practice",
+  "applicationCategory": "EducationApplication",
+  "operatingSystem": "iOS, Android",
+  "inLanguage": "en-US",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "description": "Master 13,000+ technical interview questions across 170+ topics. Spaced repetition, code snippets, streaks, and progress analytics. Download for iOS and Android.",
+  "url": "https://znanixx.com/tech-interview/",
+  "image": "https://znanixx.com/tech-interview/assets/logo.png"
+}
+  </script>
+  <!-- /seo:generated -->
+</head>
+<body>
+
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-brand">
+        <img src="assets/logo.png" alt="Tech Interview Practice" class="nav-logo">
+        <span class="nav-name"><span class="nav-name-full">Tech Interview Practice</span><span class="nav-name-short">Interview Prep</span></span>
+      </a>
+      <div class="nav-actions">
+        <a href="#download" class="nav-cta">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          Download
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero" id="hero">
+    <div class="hero-inner">
+      <div class="hero-content fade-in">
+        <div class="hero-badge">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+          // interview_prep.init()
+        </div>
+        <h1 class="hero-title">
+          Ace your tech interview,<br>
+          <span class="gradient-text">one question at a time.</span>
+        </h1>
+        <p class="hero-desc">
+          Practice 13,000+ curated questions across React, algorithms, system design, and 170+ more topics. Spaced repetition helps you retain what matters for the real interview.
+        </p>
+        <div class="hero-actions">
+          <a href="#" class="store-btn" aria-label="Download on the App Store">
+            <img src="../assets/store/app-store/en.svg" alt="Download on the App Store" width="120" height="40" loading="lazy">
+          </a>
+          <a href="#" class="store-btn" aria-label="Get it on Google Play">
+            <img src="../assets/store/google-play/en.svg" alt="Get it on Google Play" width="135" height="40" loading="lazy">
+          </a>
+        </div>
+      </div>
+      <div class="hero-visual fade-in fade-in-delay-2">
+        <div class="hero-phone-glow"></div>
+        <div class="phone-mockup phone-mockup-lg">
+          <img src="assets/screenshots/home.png" alt="Tech Interview Practice home dashboard with streaks and daily goals" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="stats-strip" aria-label="App statistics">
+    <div class="stats-grid">
+      <div class="stat-item fade-in">
+        <div class="stat-value">13,000+</div>
+        <div class="stat-label">Interview questions</div>
+      </div>
+      <div class="stat-item fade-in">
+        <div class="stat-value">170+</div>
+        <div class="stat-label">Topics covered</div>
+      </div>
+      <div class="stat-item fade-in">
+        <div class="stat-value">23</div>
+        <div class="stat-label">Technical domains</div>
+      </div>
+      <div class="stat-item fade-in">
+        <div class="stat-value">SRS</div>
+        <div class="stat-label">Spaced repetition</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="topics">
+    <div class="section-inner">
+      <div class="split fade-in">
+        <div class="split-visual split-visual-left">
+          <div class="phone-glow glow-green"></div>
+          <div class="phone-mockup phone-mockup-lg">
+            <img src="assets/screenshots/topics_list.png" alt="Browse topics by category with mastery progress" loading="lazy">
+          </div>
+        </div>
+        <div class="split-content">
+          <div class="section-badge">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+            select_domain()
+          </div>
+          <h2 class="section-title">170+ topics, organized by domain</h2>
+          <p class="section-subtitle">From JavaScript and React to system design, DevOps, and machine learning — pick the topics that match your target role.</p>
+          <ul class="split-list">
+            <li>
+              <span class="split-list-icon">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              </span>
+              <span>23 categories: Frontend, Backend, Algorithms, Databases, Security, and more</span>
+            </li>
+            <li>
+              <span class="split-list-icon">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              </span>
+              <span>Beginner, intermediate, and advanced difficulty breakdown per topic</span>
+            </li>
+            <li>
+              <span class="split-list-icon">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              </span>
+              <span>Track mastery percentage and questions learned for every topic</span>
+            </li>
+            <li>
+              <span class="split-list-icon">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              </span>
+              <span>Search and filter to find exactly what you need to study next</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="practice">
+    <div class="section-inner">
+      <div class="split split-reverse fade-in">
+        <div class="split-visual split-visual-right">
+          <div class="phone-glow glow-blue"></div>
+          <div class="split-dual-phones">
+            <div class="phone-mockup">
+              <img src="assets/screenshots/question_details.png" alt="Question detail with syntax-highlighted code answer" loading="lazy">
+            </div>
+            <div class="phone-mockup">
+              <img src="assets/screenshots/practice.png" alt="Practice mode with Again and Got it review buttons" loading="lazy">
+            </div>
+          </div>
+        </div>
+        <div class="split-content">
+          <div class="section-badge">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4Z"/></svg>
+            // practice_mode
+          </div>
+          <h2 class="section-title">Deep answers with real code</h2>
+          <p class="section-subtitle">Every question comes with a thorough explanation and syntax-highlighted code snippets — not just bullet points.</p>
+          <ul class="split-list">
+            <li>
+              <span class="split-list-icon">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              </span>
+              <span>Flashcard-style review with "Again" and "Got it" spaced-repetition grading</span>
+            </li>
+            <li>
+              <span class="split-list-icon">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              </span>
+              <span>Markdown answers with inline code highlights and full code blocks</span>
+            </li>
+            <li>
+              <span class="split-list-icon">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              </span>
+              <span>Separate new-question and review sessions to balance learning and retention</span>
+            </li>
+            <li>
+              <span class="split-list-icon">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              </span>
+              <span>Bookmark questions to revisit the concepts you find hardest</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="progress">
+    <div class="section-inner">
+      <div class="split fade-in">
+        <div class="split-visual split-visual-left">
+          <div class="phone-glow glow-green"></div>
+          <div class="phone-mockup phone-mockup-lg">
+            <img src="assets/screenshots/progress.png" alt="Progress dashboard with activity heatmap and mastery radar" loading="lazy">
+          </div>
+        </div>
+        <div class="split-content">
+          <div class="section-badge">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="m19 9-5 5-4-4-3 3"/></svg>
+            learning_analytics()
+          </div>
+          <h2 class="section-title">Track every bit of progress</h2>
+          <p class="section-subtitle">Streaks, heatmaps, and mastery radar charts make your preparation visible and motivating.</p>
+          <ul class="split-list">
+            <li>
+              <span class="split-list-icon">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              </span>
+              <span>365-day activity heatmap — like GitHub contributions for your brain</span>
+            </li>
+            <li>
+              <span class="split-list-icon">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              </span>
+              <span>Mastery radar chart across all your selected topics</span>
+            </li>
+            <li>
+              <span class="split-list-icon">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              </span>
+              <span>Daily goals, streak tracking, and time-spent analytics</span>
+            </li>
+            <li>
+              <span class="split-list-icon">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              </span>
+              <span>See mastered, new, and reviewed counts at a glance</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="features">
+    <div class="section-inner">
+      <div class="section-header fade-in">
+        <div class="section-badge">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+          features[]
+        </div>
+        <h2 class="section-title">Built for serious interview prep</h2>
+        <p class="section-subtitle">Everything you need to go from nervous to confident — in one focused app.</p>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card fade-in">
+          <div class="feature-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 8v4l3 3"/><circle cx="12" cy="12" r="10"/></svg>
+          </div>
+          <h3 class="feature-title">Spaced repetition</h3>
+          <p class="feature-desc">Questions resurface at the optimal interval so answers stick in long-term memory.</p>
+        </div>
+        <div class="feature-card fade-in">
+          <div class="feature-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+          </div>
+          <h3 class="feature-title">Code snippets</h3>
+          <p class="feature-desc">Syntax-highlighted JavaScript, Python, SQL, and more — right in every answer.</p>
+        </div>
+        <div class="feature-card fade-in">
+          <div class="feature-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></svg>
+          </div>
+          <h3 class="feature-title">Streaks &amp; daily goals</h3>
+          <p class="feature-desc">Set your daily target and build consistency with streak tracking and reminders.</p>
+        </div>
+        <div class="feature-card fade-in">
+          <div class="feature-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 20h.01"/><path d="M7 20v-4"/><path d="M12 20v-8"/><path d="M17 20V8"/><path d="M22 4v16"/></svg>
+          </div>
+          <h3 class="feature-title">Progress analytics</h3>
+          <p class="feature-desc">Heatmaps, radar charts, and detailed stats show exactly where you stand.</p>
+        </div>
+        <div class="feature-card fade-in">
+          <div class="feature-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+          </div>
+          <h3 class="feature-title">23 technical domains</h3>
+          <p class="feature-desc">Languages, frontend, backend, system design, ML, security, behavioral, and leadership.</p>
+        </div>
+        <div class="feature-card fade-in">
+          <div class="feature-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 1 1-9-9c2.52 0 4.93 1 6.74 2.74L21 8"/><path d="M21 3v5h-5"/></svg>
+          </div>
+          <h3 class="feature-title">Smart review scheduling</h3>
+          <p class="feature-desc">8-level spaced repetition automatically schedules reviews when you need them.</p>
+        </div>
+        <div class="feature-card fade-in">
+          <div class="feature-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <h3 class="feature-title">Works offline</h3>
+          <p class="feature-desc">All questions stored locally. Practice on the commute with no internet needed.</p>
+        </div>
+        <div class="feature-card fade-in">
+          <div class="feature-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+          </div>
+          <h3 class="feature-title">Dark themes</h3>
+          <p class="feature-desc">Easy on the eyes during late-night study sessions. Multiple themes to choose from.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="audience">
+    <div class="section-inner">
+      <div class="section-header fade-in">
+        <div class="section-badge">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          target_audience
+        </div>
+        <h2 class="section-title">Made for developers like you</h2>
+        <p class="section-subtitle">Whether you're interviewing next week or building long-term knowledge, this app fits your timeline.</p>
+      </div>
+      <div class="audience-grid">
+        <div class="audience-card fade-in">
+          <div class="audience-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/></svg>
+          </div>
+          <h3 class="audience-title">Job seekers</h3>
+          <p class="audience-desc">Interviewing at FAANG or a startup? Drill the exact topics your role demands.</p>
+        </div>
+        <div class="audience-card fade-in fade-in-delay-1">
+          <div class="audience-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+          </div>
+          <h3 class="audience-title">Students &amp; new grads</h3>
+          <p class="audience-desc">Turn classroom theory into interview-ready answers with structured practice.</p>
+        </div>
+        <div class="audience-card fade-in fade-in-delay-2">
+          <div class="audience-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 3h5v5"/><path d="M8 3H3v5"/><path d="M12 22v-8.3a4 4 0 0 0-1.172-2.872L3 3"/><path d="m15 9 6-6"/></svg>
+          </div>
+          <h3 class="audience-title">Career switchers</h3>
+          <p class="audience-desc">Moving into tech? Build foundational knowledge topic by topic at your own pace.</p>
+        </div>
+        <div class="audience-card fade-in fade-in-delay-3">
+          <div class="audience-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          </div>
+          <h3 class="audience-title">Senior engineers</h3>
+          <p class="audience-desc">Brush up on system design, leadership, and behavioral questions for staff-level loops.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-section" id="download">
+    <div class="cta-inner fade-in">
+      <h2 class="cta-title">Start preparing today</h2>
+      <p class="cta-desc">Download Tech Interview Practice for free and turn commute time into interview confidence.</p>
+      <div class="cta-buttons">
+        <a href="#" class="store-btn" aria-label="Download on the App Store">
+          <img src="../assets/store/app-store/en.svg" alt="Download on the App Store" width="120" height="40" loading="lazy">
+        </a>
+        <a href="#" class="store-btn" aria-label="Get it on Google Play">
+          <img src="../assets/store/google-play/en.svg" alt="Get it on Google Play" width="135" height="40" loading="lazy">
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="footer-copy" id="footer-year">&copy; Znanixx 2026</span>
+      </div>
+      <div class="footer-links">
+        <a href="faq.html">FAQ</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="tos.html">Terms of Service</a>
+        <a href="support.html">Support</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

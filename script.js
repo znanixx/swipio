@@ -190,7 +190,7 @@
 
     function navigateToLang(lang) {
       const langCode = effectiveLang(lang);
-      window.location.href = langCode === 'en' ? '/' : `/swipio/${langCode}/`;
+      window.location.href = `/swipio/${langCode}/`;
     }
 
     function openDropdown() {
@@ -228,15 +228,9 @@
     const current = getLang();
     if (!safeStorageGet(STORAGE_KEY_LANG)) setLang(current);
 
-    // On root: redirect only non-English visitors; English stays on canonical home
+    // All Swipio pages live under /swipio/{lang}/; no root landing anymore.
     if (!inLangFolder) {
-      if (current !== 'en') {
-        navigateToLang(current);
-        return;
-      }
-      if (document.documentElement) document.documentElement.lang = 'en';
-      setTrigger('en');
-      updateDocLinks('en');
+      navigateToLang(current);
       return;
     }
 
