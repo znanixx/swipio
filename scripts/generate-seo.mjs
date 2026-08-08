@@ -425,10 +425,16 @@ function generateLlmsTxt() {
     );
   }
 
-  const techStoreNote =
-    TECH_INTERVIEW_PRACTICE.storeUrls.appStore || TECH_INTERVIEW_PRACTICE.storeUrls.googlePlay
-      ? ''
-      : '\n- Store links: coming soon (not yet published)';
+  const techStoreLines = [];
+  if (TECH_INTERVIEW_PRACTICE.storeUrls.appStore) {
+    techStoreLines.push(`- Apple App Store: ${TECH_INTERVIEW_PRACTICE.storeUrls.appStore}`);
+  }
+  if (TECH_INTERVIEW_PRACTICE.storeUrls.googlePlay) {
+    techStoreLines.push(`- Google Play: ${TECH_INTERVIEW_PRACTICE.storeUrls.googlePlay}`);
+  }
+  if (!techStoreLines.length) {
+    techStoreLines.push('- Store links: coming soon (not yet published)');
+  }
 
   lines.push(
     '',
@@ -440,7 +446,8 @@ function generateLlmsTxt() {
     `- Logo: ${TECH_INTERVIEW_PRACTICE.logoUrl}`,
     `- Home: ${TECH_INTERVIEW_PRACTICE.homeUrl}`,
     `- FAQ: ${BASE}/${TECH_INTERVIEW_PRACTICE.slug}/faq.html`,
-    `- Support: ${BASE}/${TECH_INTERVIEW_PRACTICE.slug}/support.html` + techStoreNote,
+    `- Support: ${BASE}/${TECH_INTERVIEW_PRACTICE.slug}/support.html`,
+    ...techStoreLines,
     '',
     '## Legal (noindex — not intended for search indexing)',
     '',

@@ -65,8 +65,8 @@ export const TECH_INTERVIEW_PRACTICE = {
   ogImageUrl: `${BASE}/tech-interview/assets/screenshots/home.png`,
   homeUrl: `${BASE}/tech-interview/`,
   storeUrls: {
-    appStore: null,
-    googlePlay: null,
+    appStore: 'https://apps.apple.com/us/app/tech-interview-practice/id6792270949',
+    googlePlay: 'https://play.google.com/store/apps/details?id=com.techinterviewpractice.app',
   },
   tagline:
     'Master 13,000+ technical interview questions across 170+ topics with spaced repetition, code snippets, and progress analytics.',

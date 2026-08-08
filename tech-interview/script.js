@@ -4,6 +4,21 @@
   const SCROLL_NAV_THRESHOLD = 10;
   const FOOTER_START_YEAR = 2026;
 
+  /** App store URLs – update these in one place to change links site-wide. */
+  const STORE_URLS = {
+    appStore: 'https://apps.apple.com/us/app/tech-interview-practice/id6792270949',
+    googlePlay: 'https://play.google.com/store/apps/details?id=com.techinterviewpractice.app',
+  };
+
+  function initStoreLinks() {
+    document.querySelectorAll('a.store-btn').forEach((a) => {
+      const img = a.querySelector('img');
+      if (!img || !img.src) return;
+      if (img.src.includes('app-store')) a.href = STORE_URLS.appStore;
+      else if (img.src.includes('google-play')) a.href = STORE_URLS.googlePlay;
+    });
+  }
+
   function initNavScroll() {
     const nav = document.getElementById('nav');
     if (!nav) return;
@@ -46,6 +61,7 @@
     });
   }
 
+  initStoreLinks();
   initNavScroll();
   initFooterYear();
   initScrollReveal();

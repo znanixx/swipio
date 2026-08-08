@@ -60,7 +60,8 @@
 - Home: https://znanixx.com/tech-interview/
 - FAQ: https://znanixx.com/tech-interview/faq.html
 - Support: https://znanixx.com/tech-interview/support.html
-- Store links: coming soon (not yet published)
+- Apple App Store: https://apps.apple.com/us/app/tech-interview-practice/id6792270949
+- Google Play: https://play.google.com/store/apps/details?id=com.techinterviewpractice.app
 
 ## Legal (noindex — not intended for search indexing)
 
